@@ -1,8 +1,7 @@
 flask
-flask_jwt_extended
-boto3
-botocore
-flask_cors
-werkzeug
-flask_restx
+flask-cors
+flask-jwt-extended
+flask-restx
+pymongo[srv]
+bcrypt
 gunicorn

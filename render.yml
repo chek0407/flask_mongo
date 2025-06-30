@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: flask-mongo-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app2_mongo:app
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://chekvld:P92fRLNGIGPNkky7@flaskapicluster.jiu62vv.mongodb.net/?retryWrites=true&w=majority&appName=FlaskAPICluster
+
