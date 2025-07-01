@@ -82,7 +82,7 @@ try:
     client = MongoClient(MONGO_URI)
     db = client.FlaskAPICluster # Your database name
     users_collection = db.users # Collection for users
-    epl_collection = db.EPL_25_26 # Collection for EPL teams and players (now stores teams with embedded players)
+    epl_collection = db.epl_teams_&_players # Collection for EPL teams and players (now stores teams with embedded players)
     logging.info("Successfully connected to MongoDB Atlas!")
 except PyMongoError as e:
     logging.error(f"Error connecting to MongoDB: {e}")
