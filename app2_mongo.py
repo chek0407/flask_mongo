@@ -80,7 +80,7 @@ jwt = JWTManager(app)
 MONGO_URI = "mongodb+srv://chekvld:P92fRLNGIGPNkky7@flaskapicluster.jiu62vv.mongodb.net/?retryWrites=true&w=majority&appName=FlaskAPICluster"
 try:
     client = MongoClient(MONGO_URI)
-    db = client.FlaskAPICluster # Your database name
+    db = client.EPL_25_26 # Your database name
     users_collection = db.users # Collection for users
     epl_collection = db.epl_teams_players # Collection for EPL teams and players (now stores teams with embedded players)
     logging.info("Successfully connected to MongoDB Atlas!")
