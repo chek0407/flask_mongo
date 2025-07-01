@@ -1,0 +1,4838 @@
+[
+    {
+        "Stadium": "Villa Park",
+        "Founded": 1874,
+        "TeamID": "AVL",
+        "TeamName": "Aston Villa",
+        "Manager": "Unai Emery",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Elland Road",
+        "Founded": 1919,
+        "TeamID": "LEE",
+        "TeamName": "Leeds United",
+        "Manager": "Daniel Farke",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Emirates Stadium",
+        "TeamID": "ARS",
+        "Founded": 1886,
+        "Manager": "Mikel Arteta",
+        "TeamName": "Arsenal",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Vitality Stadium",
+        "Founded": 1899,
+        "TeamID": "BOU",
+        "TeamName": "AFC Bournemouth",
+        "Manager": "Andoni Iraola",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Old Trafford",
+        "Founded": 1878,
+        "TeamID": "MUN",
+        "TeamName": "Manchester United",
+        "Manager": "Erik ten Hag",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Gtech Community Stadium",
+        "Founded": 1889,
+        "TeamID": "BRE",
+        "TeamName": "Brentford",
+        "Manager": "Thomas Frank",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Amex Stadium",
+        "Founded": 1901,
+        "TeamID": "BHA",
+        "TeamName": "Brighton & Hove Albion",
+        "Manager": "Fabian Hürzeler",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Turf Moor",
+        "Founded": 1882,
+        "TeamID": "BUR",
+        "TeamName": "Burnley",
+        "Manager": "Craig Bellamy",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Stamford Bridge",
+        "Founded": 1905,
+        "TeamID": "CHE",
+        "TeamName": "Chelsea",
+        "Manager": "Enzo Maresca",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "St James' Park",
+        "Founded": 1892,
+        "TeamID": "NEW",
+        "TeamName": "Newcastle United",
+        "Manager": "Eddie Howe",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Etihad Stadium",
+        "Founded": 1880,
+        "TeamID": "MCI",
+        "TeamName": "Manchester City",
+        "Manager": "Pep Guardiola",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Anfield",
+        "Founded": 1892,
+        "TeamID": "LFC",
+        "TeamName": "Liverpool",
+        "Manager": "Arne Slot",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Old Trafford",
+        "Founded": 1878,
+        "TeamID": "MUN",
+        "TeamName": "Manchester United",
+        "Manager": "Erik ten Hag",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Tottenham Hotspur Stadium",
+        "Founded": 1882,
+        "TeamID": "TOT",
+        "TeamName": "Tottenham Hotspur",
+        "Manager": "Ange Postecoglou",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "London Stadium",
+        "Founded": 1895,
+        "TeamID": "WHU",
+        "TeamName": "West Ham United",
+        "Manager": "Julen Lopetegui",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Molineux Stadium",
+        "Founded": 1877,
+        "TeamID": "WOL",
+        "TeamName": "Wolverhampton Wanderers",
+        "Manager": "Gary O'Neil",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Goodison Park",
+        "Founded": 1878,
+        "TeamID": "EVE",
+        "TeamName": "Everton",
+        "Manager": "Sean Dyche",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Craven Cottage",
+        "Founded": 1879,
+        "TeamID": "FUL",
+        "TeamName": "Fulham",
+        "Manager": "Marco Silva",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "John Smith's Stadium",
+        "Founded": 1908,
+        "TeamID": "HUD",
+        "TeamName": "Huddersfield Town",
+        "Manager": "Michael Duff",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "King Power Stadium",
+        "Founded": 1884,
+        "TeamID": "LEI",
+        "TeamName": "Leicester City",
+        "Manager": "Graham Potter",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Kenilworth Road",
+        "Founded": 1885,
+        "TeamID": "LUT",
+        "TeamName": "Luton Town",
+        "Manager": "Rob Edwards",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Selhurst Park",
+        "Founded": 1905,
+        "TeamID": "CRY",
+        "TeamName": "Crystal Palace",
+        "Manager": "Oliver Glasner",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Bramall Lane",
+        "Founded": 1889,
+        "TeamID": "SHU",
+        "TeamName": "Sheffield United",
+        "Manager": "Chris Wilder",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "The City Ground",
+        "Founded": 1865,
+        "TeamID": "NFO",
+        "TeamName": "Nottingham Forest",
+        "Manager": "Nuno Espírito Santo",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Gtech Community Stadium",
+        "Founded": 1889,
+        "TeamID": "BUR",
+        "TeamName": "Burnley",
+        "Manager": "Vincent Kompany",
+        "EntityType": "TEAM"
+    }
+]
+```json
+[
+  {
+    "Stadium": "Villa Park",
+    "Founded": 1874,
+    "TeamID": "AVL",
+    "TeamName": "Aston Villa",
+    "Manager": "Unai Emery",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Emiliano Martínez",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 32
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Pau Torres",
+        "Position": "CB",
+        "Number": 14,
+        "Age": 27
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Alex Moreno",
+        "Position": "LB",
+        "Number": 15,
+        "Age": 31
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Kaine Kesler-Hayden",
+        "Position": "RB",
+        "Number": 29,
+        "Age": 22
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Kortney Hause",
+        "Position": "CB",
+        "Number": 30,
+        "Age": 29
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Ian Maatsen",
+        "Position": "LB",
+        "Number": 22,
+        "Age": 23
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Kosta Nedeljkovic",
+        "Position": "RB",
+        "Number": 73,
+        "Age": 21
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Lino Sousa",
+        "Position": "LB",
+        "Number": 45,
+        "Age": 19
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "John McGinn",
+        "Position": "CM",
+        "Number": 7,
+        "Age": 29
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Youri Tielemans",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 27
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Emiliano Buendía",
+        "Position": "AM",
+        "Number": 10,
+        "Age": 28
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Joe Gauci",
+        "Position": "GK",
+        "Number": 18,
+        "Age": 28
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Moussa Diaby",
+        "Position": "RW",
+        "Number": 19,
+        "Age": 25
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Morgan Rogers",
+        "Position": "LW",
+        "Number": 27,
+        "Age": 21
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Leon Bailey",
+        "Position": "RW",
+        "Number": 31,
+        "Age": 27
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Leander Dendoncker",
+        "Position": "CDM",
+        "Number": 32,
+        "Age": 29
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Jacob Ramsey",
+        "Position": "CM",
+        "Number": 41,
+        "Age": 23
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Boubacar Kamara",
+        "Position": "CDM",
+        "Number": 44,
+        "Age": 24
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Ross Barkley",
+        "Position": "CM",
+        "Number": 6,
+        "Age": 30
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Amadou Onana",
+        "Position": "CM",
+        "Number": 24,
+        "Age": 23
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Enzo Barrenechea",
+        "Position": "CM",
+        "Number": 26,
+        "Age": 23
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Samuel Iling Jr",
+        "Position": "LW",
+        "Number": 79,
+        "Age": 21
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Robin Olsen",
+        "Position": "GK",
+        "Number": 25,
+        "Age": 35
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Ollie Watkins",
+        "Position": "CF",
+        "Number": 11,
+        "Age": 29
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Jhon Durán",
+        "Position": "CF",
+        "Number": 24,
+        "Age": 20
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Cameron Archer",
+        "Position": "CF",
+        "Number": 32,
+        "Age": 23
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Bradley Burrowes",
+        "Position": "CF",
+        "Number": 83,
+        "Age": 21
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Filip Marschall",
+        "Position": "GK",
+        "Number": 42,
+        "Age": 22
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Matty Cash",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 27
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Diego Carlos",
+        "Position": "CB",
+        "Number": 3,
+        "Age": 31
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Ezri Konsa",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 27
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Tyrone Mings",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Lucas Digne",
+        "Position": "LB",
+        "Number": 12,
+        "Age": 31
+      }
+    ]
+  },
+  {
+    "Stadium": "Elland Road",
+    "Founded": 1919,
+    "TeamID": "LEE",
+    "TeamName": "Leeds United",
+    "Manager": "Daniel Farke",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Illan Meslier",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 25
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Crysencio Summerville",
+        "Position": "LW",
+        "Number": 10,
+        "Age": 23
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Wilfried Gnonto",
+        "Position": "LW",
+        "Number": 11,
+        "Age": 21
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Archie Gray",
+        "Position": "CM",
+        "Number": 12,
+        "Age": 19
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Joe Gelhardt",
+        "Position": "ST",
+        "Number": 14,
+        "Age": 23
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Pascal Struijk",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 26
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Jamie Shackleton",
+        "Position": "RB",
+        "Number": 17,
+        "Age": 25
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Darko Gyabi",
+        "Position": "CM",
+        "Number": 18,
+        "Age": 21
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Dan James",
+        "Position": "RW",
+        "Number": 20,
+        "Age": 27
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Kristoffer Klaesson",
+        "Position": "GK",
+        "Number": 21,
+        "Age": 24
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Jaidon Anthony",
+        "Position": "LW",
+        "Number": 22,
+        "Age": 25
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Joe Rodon",
+        "Position": "CB",
+        "Number": 23,
+        "Age": 27
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Sam Byram",
+        "Position": "RB",
+        "Number": 26,
+        "Age": 31
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Ian Poveda",
+        "Position": "RW",
+        "Number": 28,
+        "Age": 25
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Junior Firpo",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 28
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Leo Hjelde",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 21
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Mateo Joseph",
+        "Position": "CF",
+        "Number": 35,
+        "Age": 21
+      },
+      {
+        "PlayerID": "40",
+        "PlayerName": "Stuart Dallas",
+        "Position": "CM",
+        "Number": 40,
+        "Age": 34
+      },
+      {
+        "PlayerID": "44",
+        "PlayerName": "Connor Roberts",
+        "Position": "RB",
+        "Number": 44,
+        "Age": 29
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Charlie Cresswell",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 22
+      },
+      {
+        "PlayerID": "50",
+        "PlayerName": "Diogo Monteiro",
+        "Position": "CB",
+        "Number": 50,
+        "Age": 20
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Liam Cooper",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 34
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Luis Sinisterra",
+        "Position": "RW",
+        "Number": 7,
+        "Age": 26
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Glen Kamara",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 30
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Joel Piroe",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 26
+      }
+    ]
+  },
+  {
+    "Stadium": "Emirates Stadium",
+    "TeamID": "ARS",
+    "Founded": 1886,
+    "Manager": "Mikel Arteta",
+    "TeamName": "Arsenal",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Aaron Ramsdale",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 25
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Gabriel Martinelli",
+        "Position": "LW",
+        "Number": 11,
+        "Age": 23
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Jurrien Timber",
+        "Position": "RB",
+        "Number": 12,
+        "Age": 23
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Jakub Kiwior",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 24
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Oleksandr Zinchenko",
+        "Position": "LB",
+        "Number": 17,
+        "Age": 27
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Takehiro Tomiyasu",
+        "Position": "RB",
+        "Number": 18,
+        "Age": 26
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Leandro Trossard",
+        "Position": "LW",
+        "Number": 19,
+        "Age": 30
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "William Saliba",
+        "Position": "CB",
+        "Number": 2,
+        "Age": 23
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Jorginho",
+        "Position": "CDM",
+        "Number": 20,
+        "Age": 32
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "David Raya",
+        "Position": "GK",
+        "Number": 22,
+        "Age": 29
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Mikel Merino",
+        "Position": "CM",
+        "Number": 23,
+        "Age": 28
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Kai Havertz",
+        "Position": "CF",
+        "Number": 29,
+        "Age": 25
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Kieran Tierney",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 27
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Raheem Sterling",
+        "Position": "RW",
+        "Number": 30,
+        "Age": 30
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Norberto Murara Neto",
+        "Position": "GK",
+        "Number": 32,
+        "Age": 35
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Riccardo Calafiori",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 23
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Ben White",
+        "Position": "RB",
+        "Number": 4,
+        "Age": 27
+      },
+      {
+        "PlayerID": "41",
+        "PlayerName": "Declan Rice",
+        "Position": "CM",
+        "Number": 41,
+        "Age": 26
+      },
+      {
+        "PlayerID": "49",
+        "PlayerName": "Myles Lewis-Skelly",
+        "Position": "LB",
+        "Number": 49,
+        "Age": 18
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Thomas Partey",
+        "Position": "DM",
+        "Number": 5,
+        "Age": 31
+      },
+      {
+        "PlayerID": "53",
+        "PlayerName": "Ethan Nwaneri",
+        "Position": "RW",
+        "Number": 53,
+        "Age": 17
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Gabriel Magalhães",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 27
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Bukayo Saka",
+        "Position": "RW",
+        "Number": 7,
+        "Age": 23
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Martin Ødegaard",
+        "Position": "AM",
+        "Number": 8,
+        "Age": 26
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Gabriel Jesus",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 27
+      }
+    ]
+  },
+  {
+    "Stadium": "Vitality Stadium",
+    "Founded": 1899,
+    "TeamID": "BOU",
+    "TeamName": "AFC Bournemouth",
+    "Manager": "Andoni Iraola",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "10",
+        "PlayerName": "Ryan Christie",
+        "Position": "DM/CM/AM",
+        "Number": 10,
+        "Age": 30
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Dango Ouattara",
+        "Position": "LW/RW/ST",
+        "Number": 11,
+        "Age": 23
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Tyler Adams",
+        "Position": "DM",
+        "Number": 12,
+        "Age": 26
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Kepa Arrizabalaga",
+        "Position": "GK",
+        "Number": 13,
+        "Age": 30
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Adam Smith",
+        "Position": "RB",
+        "Number": 15,
+        "Age": 33
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Marcus Tavernier",
+        "Position": "LM/CM/RW",
+        "Number": 16,
+        "Age": 26
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Luis Sinisterra",
+        "Position": "LW",
+        "Number": 17,
+        "Age": 25
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Justin Kluivert",
+        "Position": "AM/LW",
+        "Number": 19,
+        "Age": 25
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Dean Huijsen",
+        "Position": "CB",
+        "Number": 2,
+        "Age": 20
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Julio Soler",
+        "Position": "LB",
+        "Number": 20,
+        "Age": 20
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Daniel Jebbison",
+        "Position": "CF",
+        "Number": 21,
+        "Age": 21
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Julián Araujo",
+        "Position": "RB",
+        "Number": 22,
+        "Age": 23
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "James Hill",
+        "Position": "CB",
+        "Number": 23,
+        "Age": 23
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Antoine Semenyo",
+        "Position": "LW/RW/ST",
+        "Number": 24,
+        "Age": 25
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Enes Ünal",
+        "Position": "CF",
+        "Number": 26,
+        "Age": 27
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Ilya Zabarnyi",
+        "Position": "CB",
+        "Number": 27,
+        "Age": 22
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Milos Kerkez",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 21
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Lewis Cook",
+        "Position": "CM",
+        "Number": 4,
+        "Age": 28
+      },
+      {
+        "PlayerID": "40",
+        "PlayerName": "Will Dennis",
+        "Position": "GK",
+        "Number": 40,
+        "Age": 24
+      },
+      {
+        "PlayerID": "45",
+        "PlayerName": "Matai Akinmboni",
+        "Position": "CB",
+        "Number": 45,
+        "Age": 18
+      },
+      {
+        "PlayerID": "46",
+        "PlayerName": "Callan McKenna",
+        "Position": "GK",
+        "Number": 46,
+        "Age": 18
+      },
+      {
+        "PlayerID": "48",
+        "PlayerName": "Max Kinsey",
+        "Position": "CB",
+        "Number": 48,
+        "Age": 20
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Marcos Senesi",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 27
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "David Brooks",
+        "Position": "RW/AM",
+        "Number": 7,
+        "Age": 27
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Alex Scott",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 21
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Evanilson",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 25
+      }
+    ]
+  },
+  {
+    "Stadium": "Old Trafford",
+    "Founded": 1878,
+    "TeamID": "MUN",
+    "TeamName": "Manchester United",
+    "Manager": "Erik ten Hag",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Altay Bayındır",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 27
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Joshua Zirkzee",
+        "Position": "CF",
+        "Number": 11,
+        "Age": 23
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Patrick Dorgu",
+        "Position": "LB",
+        "Number": 13,
+        "Age": 20
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Christian Eriksen",
+        "Position": "CM",
+        "Number": 14,
+        "Age": 33
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Leny Yoro",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 19
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Amad Diallo",
+        "Position": "RW",
+        "Number": 16,
+        "Age": 22
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Alejandro Garnacho",
+        "Position": "LW",
+        "Number": 17,
+        "Age": 20
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Casemiro",
+        "Position": "DM",
+        "Number": 18,
+        "Age": 33
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Victor Lindelöf",
+        "Position": "CB",
+        "Number": 2,
+        "Age": 30
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Diogo Dalot",
+        "Position": "RB",
+        "Number": 20,
+        "Age": 26
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Tom Heaton",
+        "Position": "GK",
+        "Number": 22,
+        "Age": 39
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Luke Shaw",
+        "Position": "LB",
+        "Number": 23,
+        "Age": 29
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "André Onana",
+        "Position": "GK",
+        "Number": 24,
+        "Age": 29
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Manuel Ugarte",
+        "Position": "DM",
+        "Number": 25,
+        "Age": 24
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Ayden Heaven",
+        "Position": "CB",
+        "Number": 26,
+        "Age": 18
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Noussair Mazraoui",
+        "Position": "RB",
+        "Number": 3,
+        "Age": 27
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Jonny Evans",
+        "Position": "CB",
+        "Number": 35,
+        "Age": 37
+      },
+      {
+        "PlayerID": "37",
+        "PlayerName": "Kobbie Mainoo",
+        "Position": "CM",
+        "Number": 37,
+        "Age": 20
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Matthijs de Ligt",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 25
+      },
+      {
+        "PlayerID": "41",
+        "PlayerName": "Harry Amass",
+        "Position": "LB",
+        "Number": 41,
+        "Age": 18
+      },
+      {
+        "PlayerID": "43",
+        "PlayerName": "Toby Collyer",
+        "Position": "DM",
+        "Number": 43,
+        "Age": 21
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Harry Maguire",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Lisandro Martínez",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 27
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Mason Mount",
+        "Position": "AM",
+        "Number": 7,
+        "Age": 26
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Bruno Fernandes",
+        "Position": "AM",
+        "Number": 8,
+        "Age": 30
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Rasmus Højlund",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 22
+      }
+    ]
+  },
+  {
+    "Stadium": "Gtech Community Stadium",
+    "Founded": 1889,
+    "TeamID": "BRE",
+    "TeamName": "Brentford",
+    "Manager": "Thomas Frank",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Mark Flekken",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Josh Dasilva",
+        "Position": "AM/CM",
+        "Number": 10,
+        "Age": 25
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Yoane Wissa",
+        "Position": "FW/LW",
+        "Number": 11,
+        "Age": 27
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Hákon Valdimarsson",
+        "Position": "GK",
+        "Number": 12,
+        "Age": 22
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Matthew Cox",
+        "Position": "GK",
+        "Number": 13,
+        "Age": 21
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Fábio Carvalho",
+        "Position": "AM",
+        "Number": 14,
+        "Age": 21
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Frank Onyeka",
+        "Position": "DM",
+        "Number": 15,
+        "Age": 26
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Ben Mee",
+        "Position": "CB",
+        "Number": 16,
+        "Age": 34
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Yehor Yarmolyuk",
+        "Position": "CM/AM",
+        "Number": 18,
+        "Age": 20
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Bryan Mbeumo",
+        "Position": "RW/FW",
+        "Number": 19,
+        "Age": 25
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Aaron Hickey",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 22
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Kristoffer Ajer",
+        "Position": "CB",
+        "Number": 20,
+        "Age": 26
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Nathan Collins",
+        "Position": "CB",
+        "Number": 21,
+        "Age": 23
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Lewis-Potter",
+        "Position": "LW/RW",
+        "Number": 22,
+        "Age": 23
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Keane Lewis-Potter",
+        "Position": "LW/RW",
+        "Number": 23,
+        "Age": 23
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Mikkel Damsgaard",
+        "Position": "AM/LW",
+        "Number": 24,
+        "Age": 24
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Mykhaylo Mudryk",
+        "Position": "LW/RW",
+        "Number": 25,
+        "Age": 23
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Baptiste Santamaria",
+        "Position": "DM",
+        "Number": 26,
+        "Age": 29
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Vladimir Coufal",
+        "Position": "RB",
+        "Number": 27,
+        "Age": 32
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Zanka",
+        "Position": "CB",
+        "Number": 28,
+        "Age": 34
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Rico Henry",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 27
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Mads Roerslev",
+        "Position": "RB",
+        "Number": 30,
+        "Age": 25
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Jack Wilshere",
+        "Position": "CM",
+        "Number": 32,
+        "Age": 32
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Ethan Pinnock",
+        "Position": "CB",
+        "Number": 33,
+        "Age": 31
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Mathias Jensen",
+        "Position": "CM",
+        "Number": 34,
+        "Age": 28
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Kevin Schade",
+        "Position": "LW",
+        "Number": 35,
+        "Age": 22
+      },
+      {
+        "PlayerID": "36",
+        "PlayerName": "Kim Ji-soo",
+        "Position": "CB",
+        "Number": 36,
+        "Age": 19
+      },
+      {
+        "PlayerID": "37",
+        "PlayerName": "Romeo Beckham",
+        "Position": "RW",
+        "Number": 37,
+        "Age": 22
+      },
+      {
+        "PlayerID": "39",
+        "PlayerName": "Nathaniel Adjei",
+        "Position": "CB",
+        "Number": 39,
+        "Age": 22
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Charlie Goode",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 29
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Ethan Pinnock",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 31
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Christian Nørgaard",
+        "Position": "DM",
+        "Number": 6,
+        "Age": 30
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Neal Maupay",
+        "Position": "CF",
+        "Number": 7,
+        "Age": 28
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Mathias Jensen",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 28
+      }
+    ]
+  },
+  {
+    "Stadium": "Amex Stadium",
+    "Founded": 1901,
+    "TeamID": "BHA",
+    "TeamName": "Brighton & Hove Albion",
+    "Manager": "Fabian Hürzeler",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Bart Verbruggen",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 22
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Julio Enciso",
+        "Position": "LW/RW/AM",
+        "Number": 10,
+        "Age": 20
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Billy Gilmour",
+        "Position": "CM",
+        "Number": 11,
+        "Age": 23
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Pascal Groß",
+        "Position": "CM/RB",
+        "Number": 13,
+        "Age": 33
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Adam Lallana",
+        "Position": "AM",
+        "Number": 14,
+        "Age": 36
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Jakub Moder",
+        "Position": "CM",
+        "Number": 15,
+        "Age": 25
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Danny Welbeck",
+        "Position": "ST",
+        "Number": 18,
+        "Age": 33
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Tariq Lamptey",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 23
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Carlos Baleba",
+        "Position": "CM",
+        "Number": 20,
+        "Age": 20
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Facundo Buonanotte",
+        "Position": "RW/AM",
+        "Number": 21,
+        "Age": 19
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Jason Steele",
+        "Position": "GK",
+        "Number": 23,
+        "Age": 33
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Simon Adingra",
+        "Position": "RW/LW",
+        "Number": 24,
+        "Age": 22
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Yasin Ayari",
+        "Position": "CM/AM",
+        "Number": 26,
+        "Age": 20
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Evan Ferguson",
+        "Position": "ST",
+        "Number": 28,
+        "Age": 19
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Jan Paul van Hecke",
+        "Position": "CB",
+        "Number": 29,
+        "Age": 24
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Igor Julio",
+        "Position": "CB/LB",
+        "Number": 3,
+        "Age": 26
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Ansu Fati",
+        "Position": "LW/CF",
+        "Number": 31,
+        "Age": 21
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Joël Veltman",
+        "Position": "CB/RB",
+        "Number": 34,
+        "Age": 32
+      },
+      {
+        "PlayerID": "36",
+        "PlayerName": "Andy Moran",
+        "Position": "AM/CF",
+        "Number": 36,
+        "Age": 20
+      },
+      {
+        "PlayerID": "39",
+        "PlayerName": "Benicio Baker-Boaitey",
+        "Position": "RW",
+        "Number": 39,
+        "Age": 20
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Adam Webster",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 29
+      },
+      {
+        "PlayerID": "40",
+        "PlayerName": "Jack Hinchy",
+        "Position": "CM",
+        "Number": 40,
+        "Age": 20
+      },
+      {
+        "PlayerID": "41",
+        "PlayerName": "Jamie Mullins",
+        "Position": "AM",
+        "Number": 41,
+        "Age": 20
+      },
+      {
+        "PlayerID": "44",
+        "PlayerName": "Estevan Willian",
+        "Position": "RW",
+        "Number": 44,
+        "Age": 17
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Lewis Dunk",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Solly March",
+        "Position": "RW/LW",
+        "Number": 7,
+        "Age": 30
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Leopold Finney",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 17
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "João Pedro",
+        "Position": "CF/LW",
+        "Number": 9,
+        "Age": 22
+      }
+    ]
+  },
+  {
+    "Stadium": "Turf Moor",
+    "Founded": 1882,
+    "TeamID": "BUR",
+    "TeamName": "Burnley",
+    "Manager": "Craig Bellamy",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "James Trafford",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 21
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Manuel Benson",
+        "Position": "RW",
+        "Number": 10,
+        "Age": 27
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Connor Roberts",
+        "Position": "RB",
+        "Number": 14,
+        "Age": 29
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Ameen Al-Dakhil",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 22
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Sander Berge",
+        "Position": "CM",
+        "Number": 16,
+        "Age": 26
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Lyle Foster",
+        "Position": "CF",
+        "Number": 17,
+        "Age": 24
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Hjalmar Ekdal",
+        "Position": "CB",
+        "Number": 18,
+        "Age": 25
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Anass Zaroury",
+        "Position": "LW",
+        "Number": 19,
+        "Age": 24
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Dara O'Shea",
+        "Position": "CB",
+        "Number": 2,
+        "Age": 25
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Julián Álvarez",
+        "Position": "CF",
+        "Number": 20,
+        "Age": 24
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Aaron Ramsey",
+        "Position": "CM",
+        "Number": 21,
+        "Age": 21
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Vitinho",
+        "Position": "RB/RM",
+        "Number": 22,
+        "Age": 25
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Wilson Odobert",
+        "Position": "LW",
+        "Number": 23,
+        "Age": 19
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Josh Cullen",
+        "Position": "DM",
+        "Number": 24,
+        "Age": 28
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Luca Koleosho",
+        "Position": "RW",
+        "Number": 25,
+        "Age": 19
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Denis Franchi",
+        "Position": "GK",
+        "Number": 26,
+        "Age": 21
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Lorenz Assignon",
+        "Position": "RB",
+        "Number": 27,
+        "Age": 24
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Hannibal Mejbri",
+        "Position": "CM",
+        "Number": 28,
+        "Age": 21
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Louis Jordan Beyer",
+        "Position": "CB",
+        "Number": 29,
+        "Age": 24
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Charlie Taylor",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 30
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Jokin Gabilondo",
+        "Position": "RB",
+        "Number": 30,
+        "Age": 21
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Dara Costelloe",
+        "Position": "RW",
+        "Number": 31,
+        "Age": 21
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Ben Davies",
+        "Position": "CB/LB",
+        "Number": 33,
+        "Age": 32
+      },
+      {
+        "PlayerID": "37",
+        "PlayerName": "Micky van de Ven",
+        "Position": "CB",
+        "Number": 37,
+        "Age": 24
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Kevin Danso",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 26
+      },
+      {
+        "PlayerID": "40",
+        "PlayerName": "Brandon Austin",
+        "Position": "GK",
+        "Number": 40,
+        "Age": 26
+      },
+      {
+        "PlayerID": "41",
+        "PlayerName": "Alfie Whiteman",
+        "Position": "GK",
+        "Number": 41,
+        "Age": 26
+      },
+      {
+        "PlayerID": "44",
+        "PlayerName": "Dane Scarlett",
+        "Position": "ST",
+        "Number": 44,
+        "Age": 21
+      },
+      {
+        "PlayerID": "47",
+        "PlayerName": "Mikey Moore",
+        "Position": "LW",
+        "Number": 47,
+        "Age": 17
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Jack Cork",
+        "Position": "CM",
+        "Number": 5,
+        "Age": 35
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Taylor Harwood-Bellis",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 22
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Johann Berg Guðmundsson",
+        "Position": "RW",
+        "Number": 7,
+        "Age": 33
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Josh Brownhill",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 28
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Jay Rodriguez",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 35
+      }
+    ]
+  },
+  {
+    "Stadium": "Stamford Bridge",
+    "Founded": 1905,
+    "TeamID": "CHE",
+    "TeamName": "Chelsea",
+    "Manager": "Enzo Maresca",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Robert Sánchez",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 26
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Mykhaylo Mudryk",
+        "Position": "LW",
+        "Number": 10,
+        "Age": 23
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Raheem Sterling",
+        "Position": "RW",
+        "Number": 11,
+        "Age": 30
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Marcus Bettinelli",
+        "Position": "GK",
+        "Number": 13,
+        "Age": 32
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Trevoh Chalobah",
+        "Position": "CB",
+        "Number": 14,
+        "Age": 25
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Nicolas Jackson",
+        "Position": "CF",
+        "Number": 15,
+        "Age": 23
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Wesley Fofana",
+        "Position": "CB",
+        "Number": 16,
+        "Age": 23
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Carney Chukwuemeka",
+        "Position": "CM/AM",
+        "Number": 17,
+        "Age": 20
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Christopher Nkunku",
+        "Position": "CF/AM",
+        "Number": 18,
+        "Age": 26
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Armando Broja",
+        "Position": "CF",
+        "Number": 19,
+        "Age": 22
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Axel Disasi",
+        "Position": "CB",
+        "Number": 2,
+        "Age": 26
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Cole Palmer",
+        "Position": "AM/RW",
+        "Number": 20,
+        "Age": 22
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Ben Chilwell",
+        "Position": "LB",
+        "Number": 21,
+        "Age": 27
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Conor Gallagher",
+        "Position": "CM",
+        "Number": 23,
+        "Age": 24
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Reece James",
+        "Position": "RB",
+        "Number": 24,
+        "Age": 24
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Moises Caicedo",
+        "Position": "DM",
+        "Number": 25,
+        "Age": 22
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Levi Colwill",
+        "Position": "CB/LB",
+        "Number": 26,
+        "Age": 21
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Malo Gusto",
+        "Position": "RB",
+        "Number": 27,
+        "Age": 21
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Djorde Petrovic",
+        "Position": "GK",
+        "Number": 28,
+        "Age": 24
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Jadon Sancho",
+        "Position": "LW",
+        "Number": 29,
+        "Age": 24
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Marc Cucurella",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 26
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Enzo Fernández",
+        "Position": "CM",
+        "Number": 30,
+        "Age": 23
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Cesare Casadei",
+        "Position": "CM",
+        "Number": 31,
+        "Age": 21
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Noni Madueke",
+        "Position": "RW",
+        "Number": 33,
+        "Age": 22
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Ethan Ampadu",
+        "Position": "CB/DM",
+        "Number": 34,
+        "Age": 23
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Benoît Badiashile",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 23
+      },
+      {
+        "PlayerID": "45",
+        "PlayerName": "Romeo Lavia",
+        "Position": "DM",
+        "Number": 45,
+        "Age": 20
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Benoît Badiashile",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 23
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Thiago Silva",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 39
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Axel Witsel",
+        "Position": "DM",
+        "Number": 7,
+        "Age": 35
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Enzo Fernández",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 23
+      }
+    ]
+  },
+  {
+    "Stadium": "St James' Park",
+    "Founded": 1892,
+    "TeamID": "NEW",
+    "TeamName": "Newcastle United",
+    "Manager": "Eddie Howe",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Nick Pope",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 32
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Anthony Gordon",
+        "Position": "LW",
+        "Number": 10,
+        "Age": 23
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Harvey Barnes",
+        "Position": "LW",
+        "Number": 11,
+        "Age": 26
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Matt Targett",
+        "Position": "LB",
+        "Number": 13,
+        "Age": 28
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Harvey Elliott",
+        "Position": "RW",
+        "Number": 15,
+        "Age": 21
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Lewis Hall",
+        "Position": "LB",
+        "Number": 16,
+        "Age": 19
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Emil Krafth",
+        "Position": "RB",
+        "Number": 17,
+        "Age": 29
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Loris Karius",
+        "Position": "GK",
+        "Number": 18,
+        "Age": 31
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Jacob Murphy",
+        "Position": "RW/LW",
+        "Number": 19,
+        "Age": 29
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Kieran Trippier",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 33
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Lewis Miley",
+        "Position": "CM",
+        "Number": 20,
+        "Age": 18
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Ryan Fraser",
+        "Position": "RW/LW",
+        "Number": 21,
+        "Age": 30
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Max Aarons",
+        "Position": "RB",
+        "Number": 22,
+        "Age": 24
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Javier Manquillo",
+        "Position": "RB",
+        "Number": 23,
+        "Age": 30
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Miguel Almirón",
+        "Position": "RW",
+        "Number": 24,
+        "Age": 30
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Jamal Lewis",
+        "Position": "LB",
+        "Number": 25,
+        "Age": 26
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Karl Darlow",
+        "Position": "GK",
+        "Number": 26,
+        "Age": 33
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Matt Ritchie",
+        "Position": "LW",
+        "Number": 27,
+        "Age": 34
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Joseph Willock",
+        "Position": "CM",
+        "Number": 28,
+        "Age": 25
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Santiago Giménez",
+        "Position": "CF",
+        "Number": 29,
+        "Age": 23
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Paul Dummett",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 32
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Joe Willock",
+        "Position": "CM",
+        "Number": 30,
+        "Age": 25
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Elliot Anderson",
+        "Position": "CM",
+        "Number": 32,
+        "Age": 21
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Dan Burn",
+        "Position": "CB/LB",
+        "Number": 33,
+        "Age": 32
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Reece Cambridge",
+        "Position": "RW",
+        "Number": 34,
+        "Age": 20
+      },
+      {
+        "PlayerID": "36",
+        "PlayerName": "Sean Longstaff",
+        "Position": "CM",
+        "Number": 36,
+        "Age": 26
+      },
+      {
+        "PlayerID": "39",
+        "PlayerName": "Bruno Guimarães",
+        "Position": "DM",
+        "Number": 39,
+        "Age": 27
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Sven Botman",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 24
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Fabian Schär",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Jamaal Lascelles",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 30
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Joelinton",
+        "Position": "CM",
+        "Number": 7,
+        "Age": 28
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Callum Wilson",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 32
+      }
+    ]
+  },
+  {
+    "Stadium": "Etihad Stadium",
+    "Founded": 1880,
+    "TeamID": "MCI",
+    "TeamName": "Manchester City",
+    "Manager": "Pep Guardiola",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Ederson",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Jack Grealish",
+        "Position": "LW",
+        "Number": 10,
+        "Age": 29
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Jérémy Doku",
+        "Position": "LW",
+        "Number": 11,
+        "Age": 22
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Rodri",
+        "Position": "DM",
+        "Number": 16,
+        "Age": 28
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Kevin De Bruyne",
+        "Position": "AM",
+        "Number": 17,
+        "Age": 33
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Stefan Ortega",
+        "Position": "GK",
+        "Number": 18,
+        "Age": 31
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Julian Álvarez",
+        "Position": "CF/SS",
+        "Number": 19,
+        "Age": 24
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Kyle Walker",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 34
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Bernardo Silva",
+        "Position": "RW/AM",
+        "Number": 20,
+        "Age": 30
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Sergio Gómez",
+        "Position": "LB",
+        "Number": 21,
+        "Age": 23
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Joško Gvardiol",
+        "Position": "CB/LB",
+        "Number": 24,
+        "Age": 22
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Manuel Akanji",
+        "Position": "CB",
+        "Number": 25,
+        "Age": 29
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Matheus Nunes",
+        "Position": "CM",
+        "Number": 27,
+        "Age": 25
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Rúben Dias",
+        "Position": "CB",
+        "Number": 3,
+        "Age": 27
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Scott Carson",
+        "Position": "GK",
+        "Number": 31,
+        "Age": 38
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Phil Foden",
+        "Position": "LW/RW/AM",
+        "Number": 32,
+        "Age": 24
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Cole Palmer",
+        "Position": "RW/AM",
+        "Number": 33,
+        "Age": 22
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Kalvin Phillips",
+        "Position": "DM",
+        "Number": 4,
+        "Age": 28
+      },
+      {
+        "PlayerID": "47",
+        "PlayerName": "Phil Foden",
+        "Position": "LW/RW/AM",
+        "Number": 47,
+        "Age": 24
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "John Stones",
+        "Position": "CB/DM",
+        "Number": 5,
+        "Age": 30
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Nathan Aké",
+        "Position": "CB/LB",
+        "Number": 6,
+        "Age": 29
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "João Cancelo",
+        "Position": "RB/LB",
+        "Number": 7,
+        "Age": 30
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Mateo Kovacic",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 30
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Erling Haaland",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 24
+      }
+    ]
+  },
+  {
+    "Stadium": "Anfield",
+    "Founded": 1892,
+    "TeamID": "LFC",
+    "TeamName": "Liverpool",
+    "Manager": "Arne Slot",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Alisson Becker",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Alexis Mac Allister",
+        "Position": "CM/AM",
+        "Number": 10,
+        "Age": 25
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Mohamed Salah",
+        "Position": "RW",
+        "Number": 11,
+        "Age": 32
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Adrián",
+        "Position": "GK",
+        "Number": 13,
+        "Age": 37
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Wataru Endō",
+        "Position": "DM",
+        "Number": 14,
+        "Age": 31
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Curtis Jones",
+        "Position": "CM",
+        "Number": 17,
+        "Age": 23
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Cody Gakpo",
+        "Position": "CF/LW",
+        "Number": 18,
+        "Age": 25
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Harvey Elliott",
+        "Position": "RW/AM",
+        "Number": 19,
+        "Age": 21
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Joe Gomez",
+        "Position": "CB/RB",
+        "Number": 2,
+        "Age": 27
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Diogo Jota",
+        "Position": "LW/RW/CF",
+        "Number": 20,
+        "Age": 27
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Kostas Tsimikas",
+        "Position": "LB",
+        "Number": 21,
+        "Age": 28
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Calvin Ramsay",
+        "Position": "RB",
+        "Number": 22,
+        "Age": 21
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Andrew Robertson",
+        "Position": "LB",
+        "Number": 26,
+        "Age": 30
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Fabinho",
+        "Position": "DM",
+        "Number": 3,
+        "Age": 30
+      },
+      {
+        "PlayerID": "38",
+        "PlayerName": "Ryan Gravenberch",
+        "Position": "CM",
+        "Number": 38,
+        "Age": 22
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Virgil van Dijk",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 33
+      },
+      {
+        "PlayerID": "43",
+        "PlayerName": "Stefan Bajcetic",
+        "Position": "DM",
+        "Number": 43,
+        "Age": 19
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Ibrahima Konaté",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 25
+      },
+      {
+        "PlayerID": "62",
+        "PlayerName": "Caoimhín Kelleher",
+        "Position": "GK",
+        "Number": 62,
+        "Age": 25
+      },
+      {
+        "PlayerID": "66",
+        "PlayerName": "Trent Alexander-Arnold",
+        "Position": "RB/CM",
+        "Number": 66,
+        "Age": 25
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Luis Díaz",
+        "Position": "LW",
+        "Number": 7,
+        "Age": 27
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Dominik Szoboszlai",
+        "Position": "AM",
+        "Number": 8,
+        "Age": 23
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Darwin Núñez",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 25
+      }
+    ]
+  },
+  {
+    "Stadium": "Tottenham Hotspur Stadium",
+    "Founded": 1882,
+    "TeamID": "TOT",
+    "TeamName": "Tottenham Hotspur",
+    "Manager": "Ange Postecoglou",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Guglielmo Vicario",
+        "Position": "GK",
+        "Number": 13,
+        "Age": 28
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "James Maddison",
+        "Position": "AM",
+        "Number": 10,
+        "Age": 27
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Bryan Gil",
+        "Position": "LW/RW",
+        "Number": 11,
+        "Age": 23
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Emerson Royal",
+        "Position": "RB",
+        "Number": 12,
+        "Age": 25
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Cristian Romero",
+        "Position": "CB",
+        "Number": 17,
+        "Age": 26
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Giovani Lo Celso",
+        "Position": "AM/CM",
+        "Number": 18,
+        "Age": 28
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Richarlison",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 27
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Fraser Forster",
+        "Position": "GK",
+        "Number": 20,
+        "Age": 36
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Dejan Kulusevski",
+        "Position": "RW/AM",
+        "Number": 21,
+        "Age": 24
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Brennan Johnson",
+        "Position": "RW/LW",
+        "Number": 22,
+        "Age": 23
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Pedro Porro",
+        "Position": "RB",
+        "Number": 23,
+        "Age": 24
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Manor Solomon",
+        "Position": "LW/RW",
+        "Number": 27,
+        "Age": 25
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Pape Matar Sarr",
+        "Position": "CM",
+        "Number": 29,
+        "Age": 21
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Rodrigo Bentancur",
+        "Position": "CM",
+        "Number": 30,
+        "Age": 27
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Ben Davies",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 31
+      },
+      {
+        "PlayerID": "37",
+        "PlayerName": "Micky van de Ven",
+        "Position": "CB",
+        "Number": 37,
+        "Age": 23
+      },
+      {
+        "PlayerID": "38",
+        "PlayerName": "Yves Bissouma",
+        "Position": "DM",
+        "Number": 8,
+        "Age": 27
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Oliver Skipp",
+        "Position": "DM",
+        "Number": 4,
+        "Age": 23
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Radu Drăgușin",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 22
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Son Heung-min",
+        "Position": "LW/CF",
+        "Number": 7,
+        "Age": 32
+      }
+    ]
+  },
+  {
+    "Stadium": "London Stadium",
+    "Founded": 1895,
+    "TeamID": "WHU",
+    "TeamName": "West Ham United",
+    "Manager": "Julen Lopetegui",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Łukasz Fabiański",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 39
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Lucas Paquetá",
+        "Position": "AM/CM",
+        "Number": 10,
+        "Age": 27
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Mohammed Kudus",
+        "Position": "RW/AM",
+        "Number": 14,
+        "Age": 24
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Konstantinos Mavropanos",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 26
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Maxwel Cornet",
+        "Position": "LW",
+        "Number": 17,
+        "Age": 27
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Danny Ings",
+        "Position": "CF",
+        "Number": 18,
+        "Age": 32
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Edson Álvarez",
+        "Position": "DM",
+        "Number": 19,
+        "Age": 26
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Ben Johnson",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 24
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Jarrod Bowen",
+        "Position": "RW/CF",
+        "Number": 20,
+        "Age": 27
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Angelo Ogbonna",
+        "Position": "CB",
+        "Number": 21,
+        "Age": 36
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Saïd Benrahma",
+        "Position": "LW/RW",
+        "Number": 22,
+        "Age": 28
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Alphonse Areola",
+        "Position": "GK",
+        "Number": 23,
+        "Age": 31
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Thilo Kehrer",
+        "Position": "CB/RB",
+        "Number": 24,
+        "Age": 27
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Tomáš Souček",
+        "Position": "DM/CM",
+        "Number": 25,
+        "Age": 29
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Divin Mubama",
+        "Position": "CF",
+        "Number": 26,
+        "Age": 19
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Nayef Aguerd",
+        "Position": "CB",
+        "Number": 27,
+        "Age": 28
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "George Earthy",
+        "Position": "AM",
+        "Number": 28,
+        "Age": 19
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Aaron Cresswell",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 34
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Emerson Palmieri",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 29
+      },
+      {
+        "PlayerID": "37",
+        "PlayerName": "Luizão",
+        "Position": "CB",
+        "Number": 37,
+        "Age": 22
+      },
+      {
+        "PlayerID": "39",
+        "PlayerName": "Pablo Fornals",
+        "Position": "AM/LW",
+        "Number": 39,
+        "Age": 28
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Kurt Zouma",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 29
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Vladimír Coufal",
+        "Position": "RB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "James Ward-Prowse",
+        "Position": "CM",
+        "Number": 7,
+        "Age": 29
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Michail Antonio",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 34
+      }
+    ]
+  },
+  {
+    "Stadium": "Molineux Stadium",
+    "Founded": 1877,
+    "TeamID": "WOL",
+    "TeamName": "Wolverhampton Wanderers",
+    "Manager": "Gary O'Neil",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "José Sá",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Gonçalo Guedes",
+        "Position": "LW/RW/CF",
+        "Number": 10,
+        "Age": 27
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Hwang Hee-chan",
+        "Position": "LW/CF",
+        "Number": 11,
+        "Age": 28
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Matheus Cunha",
+        "Position": "CF/SS",
+        "Number": 12,
+        "Age": 25
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Craig Dawson",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 34
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Max Kilman",
+        "Position": "CB",
+        "Number": 17,
+        "Age": 27
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Sasa Kalajdzic",
+        "Position": "CF",
+        "Number": 18,
+        "Age": 27
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Nathan Fraser",
+        "Position": "CF",
+        "Number": 19,
+        "Age": 19
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Matt Doherty",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 32
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Tommy Doyle",
+        "Position": "CM",
+        "Number": 20,
+        "Age": 22
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Pablo Sarabia",
+        "Position": "RW/AM",
+        "Number": 21,
+        "Age": 32
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Nelson Semedo",
+        "Position": "RB",
+        "Number": 22,
+        "Age": 30
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Mario Lemina",
+        "Position": "DM/CM",
+        "Number": 23,
+        "Age": 31
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "João Gomes",
+        "Position": "DM",
+        "Number": 24,
+        "Age": 23
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Daniel Bentley",
+        "Position": "GK",
+        "Number": 25,
+        "Age": 31
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Jean-Ricner Bellegarde",
+        "Position": "CM",
+        "Number": 27,
+        "Age": 26
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Morgan Gibbs-White",
+        "Position": "AM",
+        "Number": 29,
+        "Age": 24
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Rayan Aït-Nouri",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 23
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Enso González",
+        "Position": "LW",
+        "Number": 30,
+        "Age": 19
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Joe Hodge",
+        "Position": "CM",
+        "Number": 32,
+        "Age": 21
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Tim Iroegbunam",
+        "Position": "DM",
+        "Number": 34,
+        "Age": 21
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Santiago Bueno",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 25
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Mario Lemina",
+        "Position": "DM/CM",
+        "Number": 5,
+        "Age": 31
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Boubacar Traoré",
+        "Position": "DM",
+        "Number": 6,
+        "Age": 22
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Pedro Neto",
+        "Position": "RW/LW",
+        "Number": 7,
+        "Age": 24
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "João Gomes",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 23
+      }
+    ]
+  },
+  {
+    "Stadium": "Goodison Park",
+    "Founded": 1878,
+    "TeamID": "EVE",
+    "TeamName": "Everton",
+    "Manager": "Sean Dyche",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Jordan Pickford",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 30
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Arnaut Danjuma",
+        "Position": "LW/RW/CF",
+        "Number": 10,
+        "Age": 27
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Dwight McNeil",
+        "Position": "LW",
+        "Number": 11,
+        "Age": 24
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Beto",
+        "Position": "CF",
+        "Number": 14,
+        "Age": 26
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Abdoulaye Doucouré",
+        "Position": "CM",
+        "Number": 16,
+        "Age": 31
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Idrissa Gueye",
+        "Position": "DM",
+        "Number": 17,
+        "Age": 34
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Ashley Young",
+        "Position": "LB/RB/RM",
+        "Number": 18,
+        "Age": 39
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Vitaliy Mykolenko",
+        "Position": "LB",
+        "Number": 19,
+        "Age": 25
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Nathan Patterson",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 22
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Dele Alli",
+        "Position": "AM",
+        "Number": 20,
+        "Age": 28
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "André Gomes",
+        "Position": "CM",
+        "Number": 21,
+        "Age": 30
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Jarrad Branthwaite",
+        "Position": "CB",
+        "Number": 22,
+        "Age": 22
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Séamus Coleman",
+        "Position": "RB",
+        "Number": 23,
+        "Age": 35
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Lewis Dobbin",
+        "Position": "RW/CF",
+        "Number": 27,
+        "Age": 21
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Youssef Chermiti",
+        "Position": "CF",
+        "Number": 28,
+        "Age": 20
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Matty Cash",
+        "Position": "RB",
+        "Number": 3,
+        "Age": 27
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "João Virginia",
+        "Position": "GK",
+        "Number": 31,
+        "Age": 24
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Reece Welch",
+        "Position": "CB",
+        "Number": 32,
+        "Age": 20
+      },
+      {
+        "PlayerID": "37",
+        "PlayerName": "James Garner",
+        "Position": "DM/CM",
+        "Number": 37,
+        "Age": 23
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Conor Coady",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 31
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Michael Keane",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 31
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "James Tarkowski",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 31
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Jack Harrison",
+        "Position": "RW/LW",
+        "Number": 7,
+        "Age": 27
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Amadou Onana",
+        "Position": "DM/CM",
+        "Number": 8,
+        "Age": 23
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Dominic Calvert-Lewin",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 27
+      }
+    ]
+  },
+  {
+    "Stadium": "Craven Cottage",
+    "Founded": 1879,
+    "TeamID": "FUL",
+    "TeamName": "Fulham",
+    "Manager": "Marco Silva",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Bernd Leno",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 32
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Tom Cairney",
+        "Position": "CM/AM",
+        "Number": 10,
+        "Age": 33
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Adama Traoré",
+        "Position": "RW/LW",
+        "Number": 11,
+        "Age": 28
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Tim Ream",
+        "Position": "CB",
+        "Number": 13,
+        "Age": 36
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Harry Wilson",
+        "Position": "RW",
+        "Number": 14,
+        "Age": 27
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Alex Iwobi",
+        "Position": "AM/RW/CM",
+        "Number": 17,
+        "Age": 28
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Andreas Pereira",
+        "Position": "AM/CM",
+        "Number": 18,
+        "Age": 28
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Rodrigo Muniz",
+        "Position": "CF",
+        "Number": 19,
+        "Age": 23
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Kenny Tete",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 28
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Calvin Bassey",
+        "Position": "CB/LB",
+        "Number": 20,
+        "Age": 24
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Timothy Castagne",
+        "Position": "RB",
+        "Number": 21,
+        "Age": 28
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Raúl Jiménez",
+        "Position": "CF",
+        "Number": 22,
+        "Age": 33
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Steven Benda",
+        "Position": "GK",
+        "Number": 23,
+        "Age": 25
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "João Palhinha",
+        "Position": "DM",
+        "Number": 26,
+        "Age": 29
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Sasa Lukic",
+        "Position": "CM",
+        "Number": 28,
+        "Age": 28
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Calvin Bassey",
+        "Position": "CB/LB",
+        "Number": 3,
+        "Age": 24
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Issa Diop",
+        "Position": "CB",
+        "Number": 31,
+        "Age": 27
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Antonee Robinson",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 26
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Tosin Adarabioyo",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 26
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Shane Duffy",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Harrison Reed",
+        "Position": "DM/CM",
+        "Number": 6,
+        "Age": 29
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Raúl Jiménez",
+        "Position": "CF",
+        "Number": 7,
+        "Age": 33
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Bobby De Cordova-Reid",
+        "Position": "RW/LW/AM",
+        "Number": 8,
+        "Age": 31
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Armando Broja",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 22
+      }
+    ]
+  },
+  {
+    "Stadium": "John Smith's Stadium",
+    "Founded": 1908,
+    "TeamID": "HUD",
+    "TeamName": "Huddersfield Town",
+    "Manager": "Michael Duff",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Lee Nicholls",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Josh Koroma",
+        "Position": "LW/CF",
+        "Number": 10,
+        "Age": 25
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Brahima Diarra",
+        "Position": "CM/AM",
+        "Number": 11,
+        "Age": 21
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Josh Ruffels",
+        "Position": "LB",
+        "Number": 14,
+        "Age": 31
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Sorba Thomas",
+        "Position": "RW/LW",
+        "Number": 16,
+        "Age": 25
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Tom Edwards",
+        "Position": "RB",
+        "Number": 17,
+        "Age": 25
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "David Kasumu",
+        "Position": "DM/CM",
+        "Number": 18,
+        "Age": 24
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Ollie Turton",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 31
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Danny Ward",
+        "Position": "CF",
+        "Number": 20,
+        "Age": 33
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Jordan Rhodes",
+        "Position": "CF",
+        "Number": 21,
+        "Age": 34
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Jaheim Headley",
+        "Position": "LB",
+        "Number": 22,
+        "Age": 23
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Tyreece Simpson",
+        "Position": "CF",
+        "Number": 23,
+        "Age": 22
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Jonathan Hogg",
+        "Position": "DM",
+        "Number": 24,
+        "Age": 35
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Alex Matos",
+        "Position": "CM",
+        "Number": 25,
+        "Age": 20
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Pat Jones",
+        "Position": "RW/LW",
+        "Number": 26,
+        "Age": 21
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Charles Ondo",
+        "Position": "CF",
+        "Number": 27,
+        "Age": 21
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Loïc Ayina",
+        "Position": "CB",
+        "Number": 28,
+        "Age": 21
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Josh Ruffels",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 31
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Ben Jackson",
+        "Position": "LB/LM",
+        "Number": 30,
+        "Age": 23
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Tom Lees",
+        "Position": "CB",
+        "Number": 32,
+        "Age": 33
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Matty Pearson",
+        "Position": "CB",
+        "Number": 33,
+        "Age": 31
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Yuta Nakayama",
+        "Position": "CB/LB",
+        "Number": 34,
+        "Age": 27
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Delano Burgzorg",
+        "Position": "CF",
+        "Number": 35,
+        "Age": 25
+      },
+      {
+        "PlayerID": "39",
+        "PlayerName": "Jackson Smith",
+        "Position": "GK",
+        "Number": 39,
+        "Age": 20
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Matty Pearson",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 31
+      },
+      {
+        "PlayerID": "40",
+        "PlayerName": "Connor Mahoney",
+        "Position": "RW",
+        "Number": 40,
+        "Age": 27
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Michal Helik",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 29
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Patrick Wimmer",
+        "Position": "RW/LW",
+        "Number": 7,
+        "Age": 23
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Jack Rudoni",
+        "Position": "CM/AM",
+        "Number": 8,
+        "Age": 23
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Božo Vukoja",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 25
+      }
+    ]
+  },
+  {
+    "Stadium": "King Power Stadium",
+    "Founded": 1884,
+    "TeamID": "LEI",
+    "TeamName": "Leicester City",
+    "Manager": "Graham Potter",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Mads Hermansen",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 24
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Stephy Mavididi",
+        "Position": "LW",
+        "Number": 10,
+        "Age": 26
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Marc Albrighton",
+        "Position": "RW",
+        "Number": 11,
+        "Age": 34
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Kelechi Iheanacho",
+        "Position": "CF",
+        "Number": 14,
+        "Age": 27
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Harry Souttar",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 25
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Victor Kristiansen",
+        "Position": "LB",
+        "Number": 16,
+        "Age": 21
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Hamza Choudhury",
+        "Position": "DM",
+        "Number": 17,
+        "Age": 26
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Jamal Lowe",
+        "Position": "RW/CF",
+        "Number": 18,
+        "Age": 30
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "James Justin",
+        "Position": "RB/LB",
+        "Number": 2,
+        "Age": 26
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Patson Daka",
+        "Position": "CF",
+        "Number": 20,
+        "Age": 25
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Ricardo Pereira",
+        "Position": "RB",
+        "Number": 21,
+        "Age": 30
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Wout Faes",
+        "Position": "CB",
+        "Number": 22,
+        "Age": 26
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Jannik Vestergaard",
+        "Position": "CB",
+        "Number": 23,
+        "Age": 32
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Kiernan Dewsbury-Hall",
+        "Position": "CM",
+        "Number": 24,
+        "Age": 25
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Wilfred Ndidi",
+        "Position": "DM",
+        "Number": 25,
+        "Age": 27
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Dennis Praet",
+        "Position": "AM/CM",
+        "Number": 26,
+        "Age": 30
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Callum Doyle",
+        "Position": "CB",
+        "Number": 27,
+        "Age": 20
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "João Félix",
+        "Position": "CF",
+        "Number": 28,
+        "Age": 24
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Wout Faes",
+        "Position": "CB",
+        "Number": 3,
+        "Age": 26
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Fahad Al-Muwallad",
+        "Position": "RW/LW",
+        "Number": 30,
+        "Age": 30
+      },
+      {
+        "PlayerID": "31",
+        "PlayerName": "Spencer Revealing",
+        "Position": "GK",
+        "Number": 31,
+        "Age": 19
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Kasper Schmeichel",
+        "Position": "GK",
+        "Number": 32,
+        "Age": 37
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Luke Thomas",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 23
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Kasey McAteer",
+        "Position": "RW/AM",
+        "Number": 35,
+        "Age": 22
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Conor Coady",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 31
+      },
+      {
+        "PlayerID": "40",
+        "PlayerName": "Wanya Marçal",
+        "Position": "LW",
+        "Number": 40,
+        "Age": 21
+      },
+      {
+        "PlayerID": "41",
+        "PlayerName": "Jakub Stolarczyk",
+        "Position": "GK",
+        "Number": 41,
+        "Age": 24
+      },
+      {
+        "PlayerID": "45",
+        "PlayerName": "Ben Nelson",
+        "Position": "CB",
+        "Number": 45,
+        "Age": 20
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Jannik Vestergaard",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 32
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Jonny Evans",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 36
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Abdul Fatawu",
+        "Position": "RW",
+        "Number": 7,
+        "Age": 20
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Harry Winks",
+        "Position": "DM/CM",
+        "Number": 8,
+        "Age": 28
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Jamie Vardy",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 37
+      }
+    ]
+  },
+  {
+    "Stadium": "Kenilworth Road",
+    "Founded": 1885,
+    "TeamID": "LUT",
+    "TeamName": "Luton Town",
+    "Manager": "Rob Edwards",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Thomas Kaminski",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Carlton Morris",
+        "Position": "CF",
+        "Number": 10,
+        "Age": 28
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Elijah Adebayo",
+        "Position": "CF",
+        "Number": 11,
+        "Age": 26
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Chiedozie Ogbene",
+        "Position": "RM/RW/LW",
+        "Number": 12,
+        "Age": 27
+      },
+      {
+        "PlayerID": "13",
+        "PlayerName": "Marvelous Nakamba",
+        "Position": "DM",
+        "Number": 13,
+        "Age": 30
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Cauley Woodrow",
+        "Position": "CF",
+        "Number": 14,
+        "Age": 29
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Teden Mengi",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 22
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Reece Burke",
+        "Position": "CB",
+        "Number": 16,
+        "Age": 27
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Pelly Ruddock Mpanzu",
+        "Position": "CM",
+        "Number": 17,
+        "Age": 30
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Jordan Clark",
+        "Position": "CM/AM",
+        "Number": 18,
+        "Age": 30
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Gabriel Osho",
+        "Position": "CB",
+        "Number": 2,
+        "Age": 26
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Tom Lockyer",
+        "Position": "CB",
+        "Number": 20,
+        "Age": 29
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Luke Berry",
+        "Position": "CM/AM",
+        "Number": 22,
+        "Age": 32
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Dan Potts",
+        "Position": "LB",
+        "Number": 23,
+        "Age": 30
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Prince Adeboyega",
+        "Position": "CB",
+        "Number": 24,
+        "Age": 21
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Joe Johnson",
+        "Position": "LB",
+        "Number": 28,
+        "Age": 19
+      },
+      {
+        "PlayerID": "29",
+        "PlayerName": "Amari'i Bell",
+        "Position": "LB",
+        "Number": 29,
+        "Age": 30
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Dan Potts",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 30
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Andros Townsend",
+        "Position": "RW/LW",
+        "Number": 30,
+        "Age": 33
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Fred Onyedinma",
+        "Position": "RW/LW",
+        "Number": 32,
+        "Age": 27
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Ryan Giles",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 24
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Zack Nelson",
+        "Position": "AM",
+        "Number": 35,
+        "Age": 19
+      },
+      {
+        "PlayerID": "39",
+        "PlayerName": "Dion Pereira",
+        "Position": "AM",
+        "Number": 39,
+        "Age": 25
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Tom Lockyer",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 29
+      },
+      {
+        "PlayerID": "45",
+        "PlayerName": "Alfie Doughty",
+        "Position": "LB/LM",
+        "Number": 45,
+        "Age": 24
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Mads Andersen",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 28
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Ross Barkley",
+        "Position": "CM",
+        "Number": 6,
+        "Age": 30
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Marko Grujic",
+        "Position": "DM/CM",
+        "Number": 7,
+        "Age": 28
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Luke Berry",
+        "Position": "CM/AM",
+        "Number": 8,
+        "Age": 32
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Carlton Morris",
+        "Position": "CF",
+        "Number": 9,
+        "Age": 28
+      }
+    ]
+  },
+  {
+    "Stadium": "Selhurst Park",
+    "Founded": 1905,
+    "TeamID": "CRY",
+    "TeamName": "Crystal Palace",
+    "Manager": "Oliver Glasner",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Sam Johnstone",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 31
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Eberechi Eze",
+        "Position": "AM/LW",
+        "Number": 10,
+        "Age": 26
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Matheus França",
+        "Position": "AM/LW",
+        "Number": 11,
+        "Age": 20
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Michael Olise",
+        "Position": "RW",
+        "Number": 7,
+        "Age": 22
+      },
+      {
+        "PlayerID": "14",
+        "PlayerName": "Jean-Philippe Mateta",
+        "Position": "CF",
+        "Number": 14,
+        "Age": 27
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Jeffrey Schlupp",
+        "Position": "LB/LM",
+        "Number": 15,
+        "Age": 31
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Joachim Andersen",
+        "Position": "CB",
+        "Number": 16,
+        "Age": 28
+      },
+      {
+        "PlayerID": "17",
+        "PlayerName": "Nathaniel Clyne",
+        "Position": "RB",
+        "Number": 17,
+        "Age": 33
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Adam Wharton",
+        "Position": "CM",
+        "Number": 19,
+        "Age": 20
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Joel Ward",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 34
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Jairo Riedewald",
+        "Position": "DM/CM",
+        "Number": 20,
+        "Age": 27
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Odsonne Édouard",
+        "Position": "CF",
+        "Number": 22,
+        "Age": 26
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Chris Richards",
+        "Position": "CB/RB",
+        "Number": 26,
+        "Age": 24
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Cheick Doucouré",
+        "Position": "DM",
+        "Number": 28,
+        "Age": 24
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Rob Holding",
+        "Position": "CB",
+        "Number": 3,
+        "Age": 28
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Dean Henderson",
+        "Position": "GK",
+        "Number": 30,
+        "Age": 27
+      },
+      {
+        "PlayerID": "36",
+        "PlayerName": "Daniel Muñoz",
+        "Position": "RB",
+        "Number": 36,
+        "Age": 28
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Marc Guéhi",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 24
+      },
+      {
+        "PlayerID": "44",
+        "PlayerName": "Jairo Riedewald",
+        "Position": "DM/CM",
+        "Number": 44,
+        "Age": 27
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "James Tomkins",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 35
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Marc Guéhi",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 24
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Jefferson Lerma",
+        "Position": "DM/CM",
+        "Number": 8,
+        "Age": 29
+      },
+      {
+        "PlayerID": "9",
+        "PlayerName": "Jordan Ayew",
+        "Position": "RW/CF",
+        "Number": 9,
+        "Age": 32
+      }
+    ]
+  },
+  {
+    "Stadium": "Bramall Lane",
+    "Founded": 1889,
+    "TeamID": "SHU",
+    "TeamName": "Sheffield United",
+    "Manager": "Chris Wilder",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Wes Foderingham",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 33
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Ben Brereton Díaz",
+        "Position": "CF/LW",
+        "Number": 10,
+        "Age": 25
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Bénie Traoré",
+        "Position": "RW/CF",
+        "Number": 11,
+        "Age": 22
+      },
+      {
+        "PlayerID": "12",
+        "PlayerName": "Luke Thomas",
+        "Position": "LB",
+        "Number": 12,
+        "Age": 23
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Anel Ahmedhodžić",
+        "Position": "CB",
+        "Number": 15,
+        "Age": 25
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Oli McBurnie",
+        "Position": "CF",
+        "Number": 16,
+        "Age": 28
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Rhian Brewster",
+        "Position": "CF",
+        "Number": 18,
+        "Age": 24
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Jack Robinson",
+        "Position": "CB/LB",
+        "Number": 19,
+        "Age": 30
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "George Baldock",
+        "Position": "RB",
+        "Number": 2,
+        "Age": 31
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Cameron Archer",
+        "Position": "CF",
+        "Number": 20,
+        "Age": 22
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Max Lowe",
+        "Position": "LB",
+        "Number": 21,
+        "Age": 27
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Tom Davies",
+        "Position": "CM",
+        "Number": 22,
+        "Age": 26
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Ben Osborn",
+        "Position": "LM/CM",
+        "Number": 23,
+        "Age": 29
+      },
+      {
+        "PlayerID": "25",
+        "PlayerName": "Anis Ben Slimane",
+        "Position": "CM",
+        "Number": 25,
+        "Age": 23
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Chris Basham",
+        "Position": "CB/RB",
+        "Number": 27,
+        "Age": 36
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "James McAtee",
+        "Position": "AM",
+        "Number": 28,
+        "Age": 21
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Jayden Bogle",
+        "Position": "RB",
+        "Number": 3,
+        "Age": 23
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Gustavo Hamer",
+        "Position": "CM",
+        "Number": 30,
+        "Age": 27
+      },
+      {
+        "PlayerID": "33",
+        "PlayerName": "Rhys Norrington-Davies",
+        "Position": "LB",
+        "Number": 33,
+        "Age": 25
+      },
+      {
+        "PlayerID": "35",
+        "PlayerName": "Femi Seriki",
+        "Position": "RB",
+        "Number": 35,
+        "Age": 21
+      },
+      {
+        "PlayerID": "38",
+        "PlayerName": "Jili Buyabu",
+        "Position": "LB",
+        "Number": 38,
+        "Age": 20
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "John Fleck",
+        "Position": "CM",
+        "Number": 4,
+        "Age": 32
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Auston Trusty",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 25
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Chris Basham",
+        "Position": "CB",
+        "Number": 6,
+        "Age": 36
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Rhian Brewster",
+        "Position": "CF",
+        "Number": 7,
+        "Age": 24
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Gustavo Hamer",
+        "Position": "CM",
+        "Number": 8,
+        "Age": 27
+      }
+    ]
+  },
+  {
+    "Stadium": "The City Ground",
+    "Founded": 1865,
+    "TeamID": "NFO",
+    "TeamName": "Nottingham Forest",
+    "Manager": "Nuno Espírito Santo",
+    "EntityType": "TEAM",
+    "Players": [
+      {
+        "PlayerID": "1",
+        "PlayerName": "Matt Turner",
+        "Position": "GK",
+        "Number": 1,
+        "Age": 30
+      },
+      {
+        "PlayerID": "10",
+        "PlayerName": "Morgan Gibbs-White",
+        "Position": "AM",
+        "Number": 10,
+        "Age": 24
+      },
+      {
+        "PlayerID": "11",
+        "PlayerName": "Chris Wood",
+        "Position": "CF",
+        "Number": 11,
+        "Age": 32
+      },
+      {
+        "PlayerID": "15",
+        "PlayerName": "Harry Toffolo",
+        "Position": "LB",
+        "Number": 15,
+        "Age": 28
+      },
+      {
+        "PlayerID": "16",
+        "PlayerName": "Nicolas Dominguez",
+        "Position": "CM",
+        "Number": 16,
+        "Age": 26
+      },
+      {
+        "PlayerID": "18",
+        "PlayerName": "Felipe",
+        "Position": "CB",
+        "Number": 18,
+        "Age": 35
+      },
+      {
+        "PlayerID": "19",
+        "PlayerName": "Moussa Niakhaté",
+        "Position": "CB",
+        "Number": 19,
+        "Age": 28
+      },
+      {
+        "PlayerID": "2",
+        "PlayerName": "Ola Aina",
+        "Position": "RB/LB",
+        "Number": 2,
+        "Age": 28
+      },
+      {
+        "PlayerID": "20",
+        "PlayerName": "Sam Surridge",
+        "Position": "CF",
+        "Number": 20,
+        "Age": 26
+      },
+      {
+        "PlayerID": "21",
+        "PlayerName": "Anthony Elanga",
+        "Position": "LW/RW",
+        "Number": 21,
+        "Age": 22
+      },
+      {
+        "PlayerID": "22",
+        "PlayerName": "Ryan Yates",
+        "Position": "DM/CM",
+        "Number": 22,
+        "Age": 26
+      },
+      {
+        "PlayerID": "23",
+        "PlayerName": "Remo Freuler",
+        "Position": "DM",
+        "Number": 23,
+        "Age": 32
+      },
+      {
+        "PlayerID": "24",
+        "PlayerName": "Serge Aurier",
+        "Position": "RB",
+        "Number": 24,
+        "Age": 31
+      },
+      {
+        "PlayerID": "26",
+        "PlayerName": "Scott McKenna",
+        "Position": "CB",
+        "Number": 26,
+        "Age": 27
+      },
+      {
+        "PlayerID": "27",
+        "PlayerName": "Divock Origi",
+        "Position": "CF/LW",
+        "Number": 27,
+        "Age": 29
+      },
+      {
+        "PlayerID": "28",
+        "PlayerName": "Danilo",
+        "Position": "CM",
+        "Number": 28,
+        "Age": 23
+      },
+      {
+        "PlayerID": "3",
+        "PlayerName": "Nuno Tavares",
+        "Position": "LB",
+        "Number": 3,
+        "Age": 24
+      },
+      {
+        "PlayerID": "30",
+        "PlayerName": "Willy Boly",
+        "Position": "CB",
+        "Number": 30,
+        "Age": 33
+      },
+      {
+        "PlayerID": "32",
+        "PlayerName": "Andrew Omobamidele",
+        "Position": "CB",
+        "Number": 32,
+        "Age": 22
+      },
+      {
+        "PlayerID": "34",
+        "PlayerName": "Ethan Horvath",
+        "Position": "GK",
+        "Number": 34,
+        "Age": 29
+      },
+      {
+        "PlayerID": "4",
+        "PlayerName": "Joe Worrall",
+        "Position": "CB",
+        "Number": 4,
+        "Age": 27
+      },
+      {
+        "PlayerID": "41",
+        "PlayerName": "Gonzalo Montiel",
+        "Position": "RB",
+        "Number": 41,
+        "Age": 27
+      },
+      {
+        "PlayerID": "5",
+        "PlayerName": "Murillo",
+        "Position": "CB",
+        "Number": 5,
+        "Age": 22
+      },
+      {
+        "PlayerID": "6",
+        "PlayerName": "Ibrahim Sangaré",
+        "Position": "DM",
+        "Number": 6,
+        "Age": 26
+      },
+      {
+        "PlayerID": "7",
+        "PlayerName": "Neco Williams",
+        "Position": "RB/LB",
+        "Number": 7,
+        "Age": 23
+      },
+      {
+        "PlayerID": "8",
+        "PlayerName": "Cheikhou Kouyaté",
+        "Position": "DM/CM",
+        "Number": 8,
+        "Age": 34
+      }
+    ]
+  }
+]

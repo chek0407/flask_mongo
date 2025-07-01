@@ -1,0 +1,76 @@
+ERROR:app2:Exception on /epl/teams [GET]
+Traceback (most recent call last):
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/flask_jwt_extended/view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/app2.py", line 359, in get
+    resp = epl_table.scan(
+        FilterExpression="EntityType = :t",
+        ExpressionAttributeValues={':t': 'TEAM'}
+    )
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/boto3/resources/factory.py", line 581, in do_action
+    response = action(self, *args, **kwargs)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/boto3/resources/action.py", line 88, in __call__
+    response = getattr(parent.meta.client, operation_name)(*args, **params)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/client.py", line 595, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/client.py", line 1040, in _make_api_call
+    http, parsed_response = self._make_request(
+                            ~~~~~~~~~~~~~~~~~~^
+        operation_model, request_dict, request_context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/client.py", line 1064, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/endpoint.py", line 196, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/endpoint.py", line 132, in create_request
+    self._event_emitter.emit(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        event_name,
+        ^^^^^^^^^^^
+        request=request,
+        ^^^^^^^^^^^^^^^^
+        operation_name=operation_model.name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/signers.py", line 107, in handler
+    return self.sign(operation_name, request)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/signers.py", line 199, in sign
+    auth.add_auth(request)
+    ~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/botocore/auth.py", line 421, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+127.0.0.1 - - [30/Jun/2025:16:28:55 +0000] "GET //epl/teams HTTP/1.1" 500 37 "-" "PostmanRuntime/7.44.1"
+Need better ways to work with logs? Try t

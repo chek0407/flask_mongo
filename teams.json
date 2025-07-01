@@ -1,0 +1,162 @@
+[
+    {
+        "Stadium": "Villa Park",
+        "Founded": 1874,
+        "TeamID": "AVL",
+        "TeamName": "Aston Villa",
+        "Manager": "Unai Emery",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Elland Road",
+        "Founded": 1919,
+        "TeamID": "LEE",
+        "TeamName": "Leeds United",
+        "Manager": "Daniel Farke",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Emirates Stadium",
+        "TeamID": "ARS",
+        "Founded": 1886,
+        "Manager": "Mikel Arteta",
+        "TeamName": "Arsenal",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Vitality Stadium",
+        "Founded": 1899,
+        "TeamID": "BOU",
+        "TeamName": "AFC Bournemouth",
+        "Manager": "Andoni Iraola",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Old Trafford",
+        "Founded": 1878,
+        "TeamID": "MUN",
+        "TeamName": "Manchester United",
+        "Manager": "Erik ten Hag",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Gtech Community Stadium",
+        "Founded": 1889,
+        "TeamID": "BRE",
+        "TeamName": "Brentford",
+        "Manager": "Thomas Frank",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "City Ground",
+        "Founded": 1865,
+        "TeamID": "NFO",
+        "TeamName": "Nottingham Forest",
+        "Manager": "Nuno Espírito Santo",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Molineux Stadium",
+        "Founded": 1877,
+        "TeamID": "WOL",
+        "TeamName": "Wolverhampton Wanderers",
+        "Manager": "Gary O'Neil",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Falmer Stadium",
+        "Founded": 1901,
+        "TeamID": "BHA",
+        "TeamName": "Brighton & Hove Albion",
+        "Manager": "Fabian Hürzeler",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "London Stadium",
+        "Founded": 1895,
+        "TeamID": "WHU",
+        "TeamName": "West Ham United",
+        "Manager": "Graham Potter",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Craven Cottage",
+        "Founded": 1879,
+        "TeamID": "FUL",
+        "TeamName": "Fulham",
+        "Manager": "Marco Silva",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Goodison Park",
+        "Founded": 1878,
+        "TeamID": "EVE",
+        "TeamName": "Everton",
+        "Manager": "David Moyes",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Selhurst Park",
+        "Founded": 1905,
+        "TeamID": "CRY",
+        "TeamName": "Crystal Palace",
+        "Manager": "Oliver Glasner",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Turf Moor",
+        "Founded": 1882,
+        "TeamID": "BUR",
+        "TeamName": "Burnley",
+        "Manager": "Craig Bellamy",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Stamford Bridge",
+        "Founded": 1905,
+        "TeamID": "CHE",
+        "TeamName": "Chelsea",
+        "Manager": "Enzo Maresca",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "St James' Park",
+        "Founded": 1892,
+        "TeamID": "NEW",
+        "TeamName": "Newcastle United",
+        "Manager": "Eddie Howe",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Etihad Stadium",
+        "Founded": 1880,
+        "TeamID": "MCI",
+        "TeamName": "Manchester City",
+        "Manager": "Pep Guardiola",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Anfield",
+        "Founded": 1892,
+        "TeamID": "LFC",
+        "TeamName": "Liverpool",
+        "Manager": "Arne Slot",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Stadium of Light",
+        "Founded": 1879,
+        "TeamID": "SUN",
+        "TeamName": "Sunderland",
+        "Manager": "Regis Le Bris",
+        "EntityType": "TEAM"
+    },
+    {
+        "Stadium": "Tottenham Hotspur Stadium",
+        "Founded": 1882,
+        "TeamID": "TOT",
+        "TeamName": "Tottenham Hotspur",
+        "Manager": "Ange Postecoglou",
+        "EntityType": "TEAM"
+    }
+]
