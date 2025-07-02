@@ -635,6 +635,10 @@ class PlayerResource(Resource):
             logging.error(f"An unexpected error occurred: {e}", exc_info=True)
             return {'error': f'An unexpected error occurred: {str(e)}'}, 500
 
+from flask import Flask, jsonify, request # Make sure jsonify is imported at the top
+
+# ... (your existing code)
+
 @epl_ns.route('/search')
 class EPLSearch(Resource):
     @epl_ns.doc('search_epl')
@@ -652,30 +656,27 @@ class EPLSearch(Resource):
             return {'error': 'key and value query params required'}, 400
 
         query_filter = {}
-        # For numeric attributes, attempt conversion and use exact match
-        # This handles both top-level (e.g., TeamID if you were searching for it directly by number)
-        # and nested numeric attributes like Players.Number, Players.Age
-        if key in ['Number', 'Age', 'Players.Number', 'Players.Age']: # Added nested keys
+        if key in ['Number', 'Age', 'Players.Number', 'Players.Age']:
             try:
                 num_value = int(value)
                 query_filter[key] = num_value
             except ValueError:
                 return {'error': f'Value for numeric search key "{key}" must be an integer'}, 400
         else:
-            # For string attributes, use case-insensitive regex for partial match
             query_filter[key] = {'$regex': value, '$options': 'i'}
 
         try:
-            # Find all documents that match the query filter (this will return team documents)
             items = list(epl_collection.find(query_filter))
             if not items:
-                return {'results': []}, 200
+                return jsonify({'results': []}), 200 # Use jsonify here
             
             # Post-process to fix decimals and ObjectIds
             for item in items:
                 item['id'] = str(item.pop('_id')) 
             
-            return {'results': fix_decimals(items)}, 200
+            # --- CHANGE THIS LINE ---
+            return jsonify({'results': fix_decimals(items)}), 200 # Use jsonify here
+            # ------------------------
 
         except PyMongoError as e:
             logging.error(f"MongoDB Error during search: {e}", exc_info=True)
