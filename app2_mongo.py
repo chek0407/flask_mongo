@@ -639,6 +639,10 @@ from flask import Flask, jsonify, request # Make sure jsonify is imported at the
 
 # ... (your existing code)
 
+from flask import Flask, jsonify, request # 'jsonify' is not strictly needed for this specific return anymore, but keep it if used elsewhere.
+
+# ... (your existing code)
+
 @epl_ns.route('/search')
 class EPLSearch(Resource):
     @epl_ns.doc('search_epl')
@@ -668,15 +672,15 @@ class EPLSearch(Resource):
         try:
             items = list(epl_collection.find(query_filter))
             if not items:
-                return jsonify({'results': []}), 200 # Use jsonify here
+                return {'results': []}, 200 # No jsonify here
             
             # Post-process to fix decimals and ObjectIds
             for item in items:
                 item['id'] = str(item.pop('_id')) 
             
-            # --- CHANGE THIS LINE ---
-            return jsonify({'results': fix_decimals(items)}), 200 # Use jsonify here
-            # ------------------------
+            # --- CHANGE THIS LINE BACK ---
+            return {'results': fix_decimals(items)}, 200 # Remove jsonify() wrapper
+            # ----------------------------
 
         except PyMongoError as e:
             logging.error(f"MongoDB Error during search: {e}", exc_info=True)
