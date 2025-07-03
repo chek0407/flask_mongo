@@ -800,48 +800,54 @@ class EPLSearch(Resource):
     @epl_ns.doc("search_epl")
     @epl_ns.param(
         "key",
-        "Attribute name to search (e.g., TeamName, Players.PlayerName, Players.Age)",
+        "Attribute name to search (e.g., TeamName, Stadium, Manager, Players.PlayerName, Players.Age, Players.Number, Players.Position)",
     )
     @epl_ns.param("value", "Value to match")
     @jwt_required()
     def get(self):
         """Search teams or players by any attribute (including nested player attributes)"""
         current_user = get_jwt_identity()
-        logging.info(f"User '{current_user}' attempting to search EPL data")
         key = request.args.get("key")
         value = request.args.get("value")
 
-        # --- ADD THESE LOG LINES ---
-        logging.info(f"Received search request: key='{key}', value='{value}'")
-        # ---------------------------
+        logging.info(
+            f"User '{current_user}' initiated search with key='{key}', value='{value}'"
+        )
 
         if not key or not value:
-            return {"error": "key and value query params required"}, 400
+            return {
+                "error": "Both 'key' and 'value' query parameters are required"
+            }, 400
 
         query_filter = {}
-        # For numeric attributes, attempt conversion and use exact match
-        if key in ["Number", "Age", "Players.Number", "Players.Age"]:
+        # Check if the search key is for a numeric player attribute
+        if key in ["Players.Age", "Players.Number"]:
             try:
+                # Convert value to integer for numeric fields
                 num_value = int(value)
                 query_filter[key] = num_value
             except ValueError:
                 return {
-                    "error": f'Value for numeric search key "{key}" must be an integer'
+                    "error": f"Value for numeric search key '{key}' must be an integer."
                 }, 400
         else:
             # For string attributes, use case-insensitive regex for partial match
             query_filter[key] = {"$regex": value, "$options": "i"}
 
-        # --- ADD THIS LOG LINE ---
         logging.info(f"Constructed MongoDB query filter: {query_filter}")
-        # ---------------------------
 
         try:
+            # When searching within an array of documents, use find() directly.
+            # MongoDB's dot notation handles nested searches.
             items = list(epl_collection.find(query_filter))
-            if not items:
-                return {"results": []}, 200
 
-            # Post-process to fix decimals and ObjectIds
+            if not items:
+                return {
+                    "message": "No results found matching the criteria",
+                    "results": [],
+                }, 200
+
+            # Post-process to fix decimals and convert MongoDB's _id to a string
             for item in items:
                 item["id"] = str(item.pop("_id"))
 
@@ -849,7 +855,7 @@ class EPLSearch(Resource):
 
         except PyMongoError as e:
             logging.error(f"MongoDB Error during search: {e}", exc_info=True)
-            return {"error": str(e)}, 500
+            return {"error": f"Database error: {str(e)}"}, 500
         except Exception as e:
             logging.error(
                 f"An unexpected error occurred during search: {e}", exc_info=True
