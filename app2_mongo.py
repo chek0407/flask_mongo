@@ -795,17 +795,26 @@ from flask import (
 # ... (your existing code)
 
 
+# =================================================================================
+# ===== NEW AND IMPROVED SEARCH ENDPOINT ==========================================
+# =================================================================================
+
 @epl_ns.route("/search")
 class EPLSearch(Resource):
     @epl_ns.doc("search_epl")
     @epl_ns.param(
         "key",
-        "Attribute name to search (e.g., TeamName, Stadium, Manager, Players.PlayerName, Players.Age, Players.Number, Players.Position)",
+        "Attribute to search (e.g., TeamName, Stadium, Players.PlayerName, Players.Age)",
     )
-    @epl_ns.param("value", "Value to match")
+    @epl_ns.param("value", "Value to match for the given key")
     @jwt_required()
     def get(self):
-        """Search teams or players by any attribute (including nested player attributes)"""
+        """
+        Search for teams and players.
+        - For team-level searches (e.g., TeamName), it filters teams.
+        - For player-level searches (e.g., Players.Age), it filters teams AND
+          the players within those teams to show only matching players.
+        """
         current_user = get_jwt_identity()
         key = request.args.get("key")
         value = request.args.get("value")
@@ -819,35 +828,73 @@ class EPLSearch(Resource):
                 "error": "Both 'key' and 'value' query parameters are required"
             }, 400
 
-        query_filter = {}
-        # Check if the search key is for a numeric player attribute
-        if key in ["Players.Age", "Players.Number"]:
-            try:
-                # Convert value to integer for numeric fields
-                num_value = int(value)
-                query_filter[key] = num_value
-            except ValueError:
-                return {
-                    "error": f"Value for numeric search key '{key}' must be an integer."
-                }, 400
-        else:
-            # For string attributes, use case-insensitive regex for partial match
-            query_filter[key] = {"$regex": value, "$options": "i"}
-
-        logging.info(f"Constructed MongoDB query filter: {query_filter}")
-
         try:
-            # When searching within an array of documents, use find() directly.
-            # MongoDB's dot notation handles nested searches.
-            items = list(epl_collection.find(query_filter))
+            items = []
+            # Handle search on top-level team fields (e.g., TeamName, Stadium)
+            if not key.startswith("Players."):
+                query_filter = {key: {"$regex": value, "$options": "i"}}
+                logging.info(f"Constructed simple find query: {query_filter}")
+                items = list(epl_collection.find(query_filter))
 
+            # Handle search on nested player fields (e.g., Players.Age) using an Aggregation Pipeline
+            else:
+                player_field = key.split(".", 1)[1]  # e.g., 'Age' or 'PlayerName'
+
+                pipeline = [
+                    # Stage 1: Find teams that have at least one player matching the criteria.
+                    {"$match": {}},
+                    # Stage 2: Filter the 'Players' array to include ONLY matching players.
+                    {
+                        "$addFields": {
+                            "Players": {
+                                "$filter": {
+                                    "input": "$Players",
+                                    "as": "player",
+                                    "cond": {},
+                                }
+                            }
+                        }
+                    },
+                    # Stage 3: Remove teams from the result if their 'Players' array became empty after filtering.
+                    {"$match": {"Players": {"$ne": []}}},
+                ]
+
+                # Dynamically build the condition for the initial match (Stage 1) and the array filter (Stage 2)
+                if player_field in ["Age", "Number"]:
+                    try:
+                        numeric_value = int(value)
+                        pipeline[0]["$match"][key] = numeric_value
+                        pipeline[1]["$addFields"]["Players"]["$filter"]["cond"] = {
+                            "$eq": [f"$$player.{player_field}", numeric_value]
+                        }
+                    except ValueError:
+                        return {
+                            "error": f"Value for numeric key '{key}' must be an integer."
+                        }, 400
+                else:  # For string fields like PlayerName or Position
+                    regex_condition = {"$regex": value, "$options": "i"}
+                    pipeline[0]["$match"][key] = regex_condition
+                    # $regexMatch is used for filtering arrays by regex (requires MongoDB 4.2+)
+                    pipeline[1]["$addFields"]["Players"]["$filter"]["cond"] = {
+                        "$regexMatch": {
+                            "input": f"$$player.{player_field}",
+                            "regex": value,
+                            "options": "i",
+                        }
+                    }
+
+                logging.info(
+                    f"Constructed aggregation pipeline: {json.dumps(pipeline)}"
+                )
+                items = list(epl_collection.aggregate(pipeline))
+
+            # --- Common response processing for both search types ---
             if not items:
                 return {
-                    "message": "No results found matching the criteria",
+                    "message": "No results found matching your criteria",
                     "results": [],
                 }, 200
 
-            # Post-process to fix decimals and convert MongoDB's _id to a string
             for item in items:
                 item["id"] = str(item.pop("_id"))
 
