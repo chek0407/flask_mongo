@@ -391,6 +391,8 @@ player_model = epl_ns.model(
 
 # --- EPL Endpoints (Adapted for MongoDB - Nested Players) ————————————————————————————————————
 
+# ---------------------- Teams Endpoints ----------------------
+
 
 @epl_ns.route("/teams")
 class TeamList(Resource):
@@ -634,6 +636,9 @@ class TeamResource(Resource):
             return {"error": f"An unexpected error occurred: {str(e)}"}, 500
 
 
+# ======================== Players Endpoints ========================
+
+
 @epl_ns.route("/players")
 class PlayerAdd(Resource):
     @epl_ns.expect(player_model)
@@ -683,6 +688,74 @@ class PlayerAdd(Resource):
         except Exception as e:
             logging.error(f"An unexpected error occurred: {e}", exc_info=True)
             return {"error": f"An unexpected error occurred: {str(e)}"}, 500
+
+
+@app.route("/epl/transfer_player", methods=["POST"])
+def transfer_player():
+    data = request.json
+    from_team = data.get("from_team_id")
+    to_team = data.get("to_team_id")
+    player_id = data.get("player_id")
+    new_player_id = data.get("new_player_id") or player_id
+    new_number = data.get("new_number")
+
+    if not from_team or not to_team or not player_id:
+        return (
+            jsonify({"error": "from_team_id, to_team_id, and player_id are required"}),
+            400,
+        )
+
+    # Get source team
+    from_team_doc = epl_collection.find_one({"TeamID": from_team})
+    if not from_team_doc:
+        return jsonify({"error": f"Team '{from_team}' not found"}), 404
+
+    # Find player
+    player = next(
+        (p for p in from_team_doc.get("Players", []) if p.get("PlayerID") == player_id),
+        None,
+    )
+    if not player:
+        return (
+            jsonify({"error": f"Player '{player_id}' not found in team '{from_team}'"}),
+            404,
+        )
+
+    # Remove player from source team
+    epl_collection.update_one(
+        {"TeamID": from_team}, {"$pull": {"Players": {"PlayerID": player_id}}}
+    )
+
+    # Update player fields
+    player["PlayerID"] = new_player_id
+    if new_number is not None:
+        player["Number"] = new_number
+
+    # Add player to destination team
+    result = epl_collection.update_one(
+        {"TeamID": to_team}, {"$push": {"Players": player}}
+    )
+
+    if result.matched_count == 0:
+        # Rollback if to_team not found
+        epl_collection.update_one({"TeamID": from_team}, {"$push": {"Players": player}})
+        return (
+            jsonify(
+                {"error": f"Target team '{to_team}' not found. Transfer rolled back."}
+            ),
+            404,
+        )
+
+    return (
+        jsonify(
+            {
+                "message": f"Player '{player_id}' transferred from '{from_team}' to '{to_team}'",
+                "new_player_id": new_player_id,
+                "new_number": new_number,
+            }
+        ),
+        200,
+    )
 
 
 @epl_ns.route(
@@ -792,12 +865,6 @@ from flask import (
     request,
 )  # 'jsonify' is not strictly needed for this specific return anymore, but keep it if used elsewhere.
 
-# ... (your existing code)
-
-
-# =================================================================================
-# ===== NEW AND IMPROVED SEARCH ENDPOINT ==========================================
-# =================================================================================
 
 @epl_ns.route("/search")
 class EPLSearch(Resource):
