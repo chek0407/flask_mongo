@@ -96,7 +96,7 @@ try:
     db = client.EPL_25_26  # Your database name
     users_collection = db.users  # Collection for users
     epl_collection = (
-        db.epl_teams_players
+        db.epl_2025_2026_updated
     )  # Collection for EPL teams and players (now stores teams with embedded players)
     logging.info("Successfully connected to MongoDB Atlas!")
 except PyMongoError as e:
