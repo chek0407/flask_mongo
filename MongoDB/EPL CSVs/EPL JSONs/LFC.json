@@ -1,0 +1,206 @@
+{
+    "Stadium": "Anfield",
+    "Founded": 1892,
+    "TeamID": "LFC",
+    "TeamName": "Liverpool",
+    "Manager": "Arne Slot",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Alisson Becker",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 33
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Joe Gomez",
+            "Position": "CB",
+            "Number": 2,
+            "Age": 28
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Wataru Endo",
+            "Position": "DM",
+            "Number": 3,
+            "Age": 32
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Virgil van Dijk",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 34
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Ibrahima Konaté",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 26
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Milos Kerkez",
+            "Position": "LB",
+            "Number": 6,
+            "Age": 21
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Florian Wirtz",
+            "Position": "AM",
+            "Number": 7,
+            "Age": 22
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Dominik Szoboszlai",
+            "Position": "AM",
+            "Number": 8,
+            "Age": 24
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Alexander Isak",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 26
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Alexis Mac Allister",
+            "Position": "CM",
+            "Number": 10,
+            "Age": 26
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Mohamed Salah",
+            "Position": "RW",
+            "Number": 11,
+            "Age": 33
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Conor Bradley",
+            "Position": "RB",
+            "Number": 12,
+            "Age": 22
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Federico Chiesa",
+            "Position": "RW",
+            "Number": 14,
+            "Age": 27
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Giovanni Leoni",
+            "Position": "CB",
+            "Number": 15,
+            "Age": 18
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Curtis Jones",
+            "Position": "CM",
+            "Number": 17,
+            "Age": 24
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Cody Gakpo",
+            "Position": "LW",
+            "Number": 18,
+            "Age": 26
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Hugo Ekitiké",
+            "Position": "CF",
+            "Number": 22,
+            "Age": 23
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Giorgi Mamardashvili",
+            "Position": "GK",
+            "Number": 25,
+            "Age": 25
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Andrew Robertson",
+            "Position": "LB",
+            "Number": 26,
+            "Age": 31
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Freddie Woodman",
+            "Position": "GK",
+            "Number": 28,
+            "Age": 28
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Jeremie Frimpong",
+            "Position": "RB",
+            "Number": 30,
+            "Age": 24
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Ryan Gravenberch",
+            "Position": "DM",
+            "Number": 38,
+            "Age": 23
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Ármin Pécsi",
+            "Position": "GK",
+            "Number": 41,
+            "Age": 20
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Trey Nyoni",
+            "Position": "CM",
+            "Number": 42,
+            "Age": 18
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Stefan Bajčetić",
+            "Position": "DM",
+            "Number": 43,
+            "Age": 20
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Rhys Williams",
+            "Position": "CB",
+            "Number": 46,
+            "Age": 24
+        },
+        {
+            "PlayerID": "27",
+            "PlayerName": "Calvin Ramsay",
+            "Position": "RB",
+            "Number": 47,
+            "Age": 22
+        },
+        {
+            "PlayerID": "28",
+            "PlayerName": "Rio Ngumoha",
+            "Position": "LW",
+            "Number": 73,
+            "Age": 17
+        }
+    ]
+}

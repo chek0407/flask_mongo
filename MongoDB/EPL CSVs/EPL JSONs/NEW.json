@@ -1,0 +1,192 @@
+{
+    "Stadium": "St James' Park",
+    "Founded": 1892,
+    "TeamID": "NEW",
+    "TeamName": "Newcastle United",
+    "Manager": "Eddie Howe",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Nick Pope",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 34
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "John Ruddy",
+            "Position": "GK",
+            "Number": 26,
+            "Age": 39
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Mark Gillespie",
+            "Position": "GK",
+            "Number": 29,
+            "Age": 34
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Aaron Ramsdale",
+            "Position": "GK",
+            "Number": 32,
+            "Age": 27
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Kieran Trippier",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 35
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Lewis Hall",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 21
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Sven Botman",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 26
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Fabian Schär",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 33
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Jamaal Lascelles",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 31
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Malick Thiaw",
+            "Position": "CB",
+            "Number": 12,
+            "Age": 24
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Emil Krafth",
+            "Position": "RB",
+            "Number": 17,
+            "Age": 31
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Tino Livramento",
+            "Position": "RB",
+            "Number": 21,
+            "Age": 22
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Dan Burn",
+            "Position": "CB/LB",
+            "Number": 33,
+            "Age": 33
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Bruno Guimarães",
+            "Position": "CM/DM",
+            "Number": 39,
+            "Age": 27
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Joelinton",
+            "Position": "CM/LW",
+            "Number": 7,
+            "Age": 29
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Sandro Tonali",
+            "Position": "DM/CM",
+            "Number": 8,
+            "Age": 26
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Anthony Gordon",
+            "Position": "LW/RW",
+            "Number": 10,
+            "Age": 24
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Harvey Barnes",
+            "Position": "LW",
+            "Number": 11,
+            "Age": 27
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Anthony Elanga",
+            "Position": "RW/LW",
+            "Number": 20,
+            "Age": 23
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Jacob Murphy",
+            "Position": "RW",
+            "Number": 23,
+            "Age": 30
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Joe Willock",
+            "Position": "CM",
+            "Number": 28,
+            "Age": 26
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Jacob Ramsey",
+            "Position": "CM",
+            "Number": 41,
+            "Age": 24
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Lewis Miley",
+            "Position": "CM/DM",
+            "Number": 67,
+            "Age": 19
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Yoane Wissa",
+            "Position": "ST/LW",
+            "Number": 9,
+            "Age": 29
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "William Osula",
+            "Position": "ST",
+            "Number": 18,
+            "Age": 22
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Nick Woltemade",
+            "Position": "ST",
+            "Number": 27,
+            "Age": 23
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "Stadium": "Vitality Stadium",
+    "Founded": 1899,
+    "TeamID": "BOU",
+    "TeamName": "AFC Bournemouth",
+    "Manager": "Andoni Iraola",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Đorđe Petrović",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 26
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Will Dennis",
+            "Position": "GK",
+            "Number": 40,
+            "Age": 25
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Callan McKenna",
+            "Position": "GK",
+            "Number": 46,
+            "Age": 21
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Julián Araujo",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 24
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Adrien Truffert",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 24
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Marcos Senesi",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 28
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Julio Soler",
+            "Position": "DF",
+            "Number": 6,
+            "Age": 25
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Adam Smith",
+            "Position": "RB",
+            "Number": 15,
+            "Age": 34
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Bafodé Diakité",
+            "Position": "CB",
+            "Number": 18,
+            "Age": 24
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Álex Jiménez",
+            "Position": "RB",
+            "Number": 20,
+            "Age": 20
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "James Hill",
+            "Position": "CB",
+            "Number": 23,
+            "Age": 23
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Owen Bevan",
+            "Position": "CB",
+            "Number": 35,
+            "Age": 22
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Veljko Milosavljevic",
+            "Position": "CB",
+            "Number": 44,
+            "Age": 21
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Lewis Cook",
+            "Position": "CM",
+            "Number": 4,
+            "Age": 28
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "David Brooks",
+            "Position": "AM",
+            "Number": 7,
+            "Age": 32
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Alex Scott",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 22
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Ryan Christie",
+            "Position": "AM",
+            "Number": 10,
+            "Age": 30
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Tyler Adams",
+            "Position": "DM",
+            "Number": 12,
+            "Age": 26
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Marcus Tavernier",
+            "Position": "Winger",
+            "Number": 16,
+            "Age": 26
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Evanilson",
+            "Position": "ST",
+            "Number": 9,
+            "Age": 26
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Ben Gannon-Doak",
+            "Position": "Winger",
+            "Number": 11,
+            "Age": 19
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Justin Kluivert",
+            "Position": "Winger",
+            "Number": 19,
+            "Age": 26
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Amine Adli",
+            "Position": "Winger",
+            "Number": 21,
+            "Age": 25
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Eli Kroupi",
+            "Position": "ST",
+            "Number": 22,
+            "Age": 19
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Antoine Semenyo",
+            "Position": "ST",
+            "Number": 24,
+            "Age": 25
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Enes Ünal",
+            "Position": "ST",
+            "Number": 26,
+            "Age": 28
+        }
+    ]
+}

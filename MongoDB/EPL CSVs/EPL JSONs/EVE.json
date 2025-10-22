@@ -1,0 +1,178 @@
+{
+    "Stadium": "Goodison Park",
+    "Founded": 1878,
+    "TeamID": "EVE",
+    "TeamName": "Everton",
+    "Manager": "David Moyes",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Jordan Pickford",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 31
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Nathan Patterson",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 23
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Michael Keane",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 32
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "James Tarkowski",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 32
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Dwight McNeil",
+            "Position": "LW",
+            "Number": 7,
+            "Age": 25
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Beto",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 27
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Iliman Ndiaye",
+            "Position": "RW",
+            "Number": 10,
+            "Age": 25
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Thierno Barry",
+            "Position": "CF",
+            "Number": 11,
+            "Age": 22
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Mark Travers",
+            "Position": "GK",
+            "Number": 12,
+            "Age": 26
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Jake O'Brien",
+            "Position": "CB",
+            "Number": 15,
+            "Age": 24
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Vitalii Mykolenko",
+            "Position": "LB",
+            "Number": 16,
+            "Age": 26
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Jack Grealish",
+            "Position": "AM",
+            "Number": 18,
+            "Age": 30
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Tyler Dibling",
+            "Position": "RW",
+            "Number": 20,
+            "Age": 19
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Kiernan Dewsbury-Hall",
+            "Position": "CM",
+            "Number": 22,
+            "Age": 27
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Séamus Coleman",
+            "Position": "RB",
+            "Number": 23,
+            "Age": 36
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Charly Alcaraz",
+            "Position": "CM",
+            "Number": 24,
+            "Age": 22
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Idrissa Gana Gueye",
+            "Position": "DM",
+            "Number": 27,
+            "Age": 36
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Tom King",
+            "Position": "GK",
+            "Number": 31,
+            "Age": 30
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Jarrad Branthwaite",
+            "Position": "CB",
+            "Number": 32,
+            "Age": 23
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Merlin Röhl",
+            "Position": "CM",
+            "Number": 34,
+            "Age": 23
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "James Garner",
+            "Position": "DM",
+            "Number": 37,
+            "Age": 24
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Adam Aznou",
+            "Position": "LB",
+            "Number": 39,
+            "Age": 19
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Tim Iroegbunam",
+            "Position": "CM",
+            "Number": 42,
+            "Age": 22
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Harry Tyrer",
+            "Position": "GK",
+            "Number": 53,
+            "Age": 23
+        }
+    ]
+}

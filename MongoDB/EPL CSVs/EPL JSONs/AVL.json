@@ -1,0 +1,171 @@
+{
+    "Stadium": "Villa Park",
+    "Founded": 1874,
+    "TeamID": "AVL",
+    "TeamName": "Aston Villa",
+    "Manager": "Unai Emery",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Emiliano Martínez",
+            "Position": "GK",
+            "Number": 23,
+            "Age": 33
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Marco Bizot",
+            "Position": "GK",
+            "Number": 40,
+            "Age": 34
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Matty Cash",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 28
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Victor Lindelöf",
+            "Position": "CB",
+            "Number": 3,
+            "Age": 31
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Ezri Konsa",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 27
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Tyrone Mings",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 32
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Lucas Digne",
+            "Position": "LB",
+            "Number": 12,
+            "Age": 32
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Pau Torres",
+            "Position": "CB",
+            "Number": 14,
+            "Age": 28
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Andrés García",
+            "Position": "RB",
+            "Number": 16,
+            "Age": 22
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Ian Maatsen",
+            "Position": "LB",
+            "Number": 22,
+            "Age": 23
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Ross Barkley",
+            "Position": "CM",
+            "Number": 6,
+            "Age": 31
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "John McGinn",
+            "Position": "CM",
+            "Number": 7,
+            "Age": 30
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Youri Tielemans",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 28
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Harvey Elliott",
+            "Position": "AM",
+            "Number": 9,
+            "Age": 22
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Emiliano Buendía",
+            "Position": "AM",
+            "Number": 10,
+            "Age": 28
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Donyell Malen",
+            "Position": "RW",
+            "Number": 17,
+            "Age": 26
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Jadon Sancho",
+            "Position": "LW",
+            "Number": 19,
+            "Age": 25
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Amadou Onana",
+            "Position": "DM",
+            "Number": 24,
+            "Age": 24
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Lamare Bogarde",
+            "Position": "DM",
+            "Number": 26,
+            "Age": 21
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Morgan Rogers",
+            "Position": "AM",
+            "Number": 27,
+            "Age": 23
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Boubacar Kamara",
+            "Position": "DM",
+            "Number": 44,
+            "Age": 25
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Ollie Watkins",
+            "Position": "ST",
+            "Number": 11,
+            "Age": 29
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Evann Guessand",
+            "Position": "ST",
+            "Number": 29,
+            "Age": 24
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "Stadium": "Turf Moor",
+    "Founded": 1882,
+    "TeamID": "BUR",
+    "TeamName": "Burnley",
+    "Manager": "Scott Parker",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Martin Dúbravka",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 36
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Max Weiß",
+            "Position": "GK",
+            "Number": 13,
+            "Age": 21
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Václav Hladký",
+            "Position": "GK",
+            "Number": 32,
+            "Age": 34
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Quilindschy Hartman",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 23
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Joe Worrall",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 28
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Maxime Estève",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 23
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Axel Tuanzebe",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 27
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Kyle Walker",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 35
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Bashir Humphreys",
+            "Position": "CB",
+            "Number": 12,
+            "Age": 22
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Connor Roberts",
+            "Position": "RB",
+            "Number": 14,
+            "Age": 30
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Hjalmar Ekdal",
+            "Position": "CB",
+            "Number": 18,
+            "Age": 26
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Oliver Sonne",
+            "Position": "RB",
+            "Number": 22,
+            "Age": 24
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Lucas Pires",
+            "Position": "LB",
+            "Number": 23,
+            "Age": 24
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Jordan Beyer",
+            "Position": "CB",
+            "Number": 36,
+            "Age": 25
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Lesley Ugochukwu",
+            "Position": "DM",
+            "Number": 8,
+            "Age": 21
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Marcus Edwards",
+            "Position": "RW",
+            "Number": 10,
+            "Age": 26
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Florentino Luís",
+            "Position": "DM",
+            "Number": 16,
+            "Age": 26
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Zian Flemming",
+            "Position": "CM/CF",
+            "Number": 19,
+            "Age": 27
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Josh Cullen",
+            "Position": "DM",
+            "Number": 24,
+            "Age": 29
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Hannibal Mejbri",
+            "Position": "AM",
+            "Number": 28,
+            "Age": 22
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Josh Laurent",
+            "Position": "CM",
+            "Number": 29,
+            "Age": 30
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Mike Trésor",
+            "Position": "AM",
+            "Number": 31,
+            "Age": 26
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Jacob Bruun Larsen",
+            "Position": "LW",
+            "Number": 7,
+            "Age": 27
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Lyle Foster",
+            "Position": "ST",
+            "Number": 9,
+            "Age": 25
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Jaidon Anthony",
+            "Position": "LW",
+            "Number": 11,
+            "Age": 25
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Loum Tchaouna",
+            "Position": "RW",
+            "Number": 17,
+            "Age": 22
+        },
+        {
+            "PlayerID": "27",
+            "PlayerName": "Zeki Amdouni",
+            "Position": "CF",
+            "Number": 25,
+            "Age": 24
+        },
+        {
+            "PlayerID": "28",
+            "PlayerName": "Armando Broja",
+            "Position": "CF",
+            "Number": 27,
+            "Age": 24
+        }
+    ]
+}

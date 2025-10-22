@@ -1,0 +1,206 @@
+{
+    "Stadium": "City Ground",
+    "Founded": 1865,
+    "TeamID": "NFO",
+    "TeamName": "Nottingham Forest",
+    "Manager": "",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Matz Sels",
+            "Position": "GK",
+            "Number": 26,
+            "Age": 33
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "John Victor",
+            "Position": "GK",
+            "Number": 13,
+            "Age": 29
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Angus Gunn",
+            "Position": "GK",
+            "Number": 18,
+            "Age": 29
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Murillo",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 23
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Nikola Milenković",
+            "Position": "CB",
+            "Number": 31,
+            "Age": 28
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Morato",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 24
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Jair Cunha",
+            "Position": "CB",
+            "Number": 23,
+            "Age": 20
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Willy Boly",
+            "Position": "CB",
+            "Number": 30,
+            "Age": 34
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Neco Williams",
+            "Position": "RB",
+            "Number": 3,
+            "Age": 24
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Ola Aina",
+            "Position": "RB",
+            "Number": 34,
+            "Age": 29
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Nicolò Savona",
+            "Position": "RB",
+            "Number": 37,
+            "Age": 22
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Oleksandr Zinchenko",
+            "Position": "LB",
+            "Number": 35,
+            "Age": 28
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Ibrahim Sangaré",
+            "Position": "DM",
+            "Number": 6,
+            "Age": 27
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Douglas Luiz",
+            "Position": "CM",
+            "Number": 12,
+            "Age": 27
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Nicolás Domínguez",
+            "Position": "CM",
+            "Number": 16,
+            "Age": 27
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Ryan Yates",
+            "Position": "CM",
+            "Number": 22,
+            "Age": 27
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Elliot Anderson",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 22
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Morgan Gibbs-White",
+            "Position": "AM",
+            "Number": 10,
+            "Age": 25
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "James McAtee",
+            "Position": "AM",
+            "Number": 24,
+            "Age": 23
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Omari Hutchinson",
+            "Position": "RW",
+            "Number": 21,
+            "Age": 21
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Callum Hudson-Odoi",
+            "Position": "LW",
+            "Number": 7,
+            "Age": 24
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Dan Ndoye",
+            "Position": "RW",
+            "Number": 14,
+            "Age": 24
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Dilane Bakwa",
+            "Position": "RW",
+            "Number": 29,
+            "Age": 23
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Taiwo Awoniyi",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 28
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Chris Wood",
+            "Position": "CF",
+            "Number": 11,
+            "Age": 33
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Arnaud Kalimuendo",
+            "Position": "CF",
+            "Number": 15,
+            "Age": 23
+        },
+        {
+            "PlayerID": "27",
+            "PlayerName": "Igor Jesus",
+            "Position": "CF",
+            "Number": 19,
+            "Age": 24
+        },
+        {
+            "PlayerID": "28",
+            "PlayerName": "Zach Abbott",
+            "Position": "CB",
+            "Number": 44,
+            "Age": 19
+        }
+    ]
+}

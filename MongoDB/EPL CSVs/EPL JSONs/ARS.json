@@ -1,0 +1,192 @@
+{
+    "Stadium": "Emirates Stadium",
+    "Founded": 1886,
+    "TeamID": "ARS",
+    "TeamName": "Arsenal",
+    "Manager": "Mikel Arteta",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "David Raya",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 30
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "William Saliba",
+            "Position": "CB",
+            "Number": 2,
+            "Age": 24
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Cristhian Mosquera",
+            "Position": "CB",
+            "Number": 3,
+            "Age": 21
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Ben White",
+            "Position": "RB",
+            "Number": 4,
+            "Age": 28
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Piero Hincapié",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 23
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Gabriel Magalhães",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 27
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Bukayo Saka",
+            "Position": "RW",
+            "Number": 7,
+            "Age": 24
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Martin Ødegaard",
+            "Position": "AM",
+            "Number": 8,
+            "Age": 26
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Gabriel Jesus",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 28
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Eberechi Eze",
+            "Position": "AM",
+            "Number": 10,
+            "Age": 27
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Gabriel Martinelli",
+            "Position": "LW",
+            "Number": 11,
+            "Age": 24
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Jurriën Timber",
+            "Position": "RB",
+            "Number": 12,
+            "Age": 24
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Kepa Arrizabalaga",
+            "Position": "GK",
+            "Number": 13,
+            "Age": 31
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Viktor Gyökeres",
+            "Position": "CF",
+            "Number": 14,
+            "Age": 27
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Christian Nørgaard",
+            "Position": "DM",
+            "Number": 16,
+            "Age": 31
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Leandro Trossard",
+            "Position": "LW",
+            "Number": 19,
+            "Age": 30
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Noni Madueke",
+            "Position": "RW",
+            "Number": 20,
+            "Age": 23
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Ethan Nwaneri",
+            "Position": "AM",
+            "Number": 22,
+            "Age": 18
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Mikel Merino",
+            "Position": "CM",
+            "Number": 23,
+            "Age": 29
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Kai Havertz",
+            "Position": "CF",
+            "Number": 29,
+            "Age": 26
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Riccardo Calafiori",
+            "Position": "LB",
+            "Number": 33,
+            "Age": 23
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Martín Zubimendi",
+            "Position": "DM",
+            "Number": 36,
+            "Age": 26
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Declan Rice",
+            "Position": "CM",
+            "Number": 41,
+            "Age": 26
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Myles Lewis-Skelly",
+            "Position": "LB",
+            "Number": 49,
+            "Age": 19
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Max Dowman",
+            "Position": "RW",
+            "Number": 56,
+            "Age": 15
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Raheem Sterling",
+            "Position": "RW",
+            "Number": 30,
+            "Age": 30
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "Stadium": "Stadium of Light",
+    "Founded": 1879,
+    "TeamID": "SUN",
+    "TeamName": "Sunderland",
+    "Manager": "Regis Le Bris",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Anthony Patterson",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 25
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Robin Roefs",
+            "Position": "GK",
+            "Number": 22,
+            "Age": 23
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Dennis Cirkin",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 23
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Dan Ballard",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 25
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Lutsharel Geertruida",
+            "Position": "CB/RB",
+            "Number": 6,
+            "Age": 25
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Luke O'Nien",
+            "Position": "CB/CM",
+            "Number": 13,
+            "Age": 31
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Omar Alderete",
+            "Position": "CB",
+            "Number": 15,
+            "Age": 28
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Reinildo Mandava",
+            "Position": "LB",
+            "Number": 17,
+            "Age": 31
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Nordi Mukiele",
+            "Position": "RB/DF",
+            "Number": 20,
+            "Age": 27
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Arthur Masuaku",
+            "Position": "DF",
+            "Number": 26,
+            "Age": 31
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Trai Hume",
+            "Position": "RB",
+            "Number": 32,
+            "Age": 23
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Leo Hjelde",
+            "Position": "CB/LB",
+            "Number": 33,
+            "Age": 22
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Dan Neil",
+            "Position": "CM",
+            "Number": 4,
+            "Age": 23
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Chris Rigg",
+            "Position": "CM",
+            "Number": 11,
+            "Age": 18
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Habib Diarra",
+            "Position": "DM",
+            "Number": 19,
+            "Age": 21
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Noah Sadiki",
+            "Position": "CM",
+            "Number": 27,
+            "Age": 21
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Enzo Le Fée",
+            "Position": "CM",
+            "Number": 28,
+            "Age": 25
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Granit Xhaka",
+            "Position": "CM",
+            "Number": 34,
+            "Age": 33
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Chemsdine Talbi",
+            "Position": "Winger",
+            "Number": 7,
+            "Age": 20
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Brian Brobbey",
+            "Position": "ST",
+            "Number": 9,
+            "Age": 23
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Eliezer Mayenda",
+            "Position": "ST",
+            "Number": 12,
+            "Age": 20
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Romaine Mundle",
+            "Position": "Winger",
+            "Number": 14,
+            "Age": 22
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Wilson Isidor",
+            "Position": "ST",
+            "Number": 18,
+            "Age": 25
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Simon Adingra",
+            "Position": "Winger",
+            "Number": 24,
+            "Age": 23
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Bertrand Traoré",
+            "Position": "Winger",
+            "Number": 25,
+            "Age": 30
+        }
+    ]
+}

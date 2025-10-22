@@ -1,0 +1,171 @@
+{
+    "Stadium": "Craven Cottage",
+    "Founded": 1879,
+    "TeamID": "FUL",
+    "TeamName": "Fulham",
+    "Manager": "Marco Silva",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Bernd Leno",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 33
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Benjamin Lecomte",
+            "Position": "GK",
+            "Number": 23,
+            "Age": 34
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Kenny Tete",
+            "Position": "Defender",
+            "Number": 2,
+            "Age": 29
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Calvin Bassey",
+            "Position": "Defender",
+            "Number": 3,
+            "Age": 25
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Joachim Andersen",
+            "Position": "Defender",
+            "Number": 5,
+            "Age": 29
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Jorge Cuenca",
+            "Position": "Defender",
+            "Number": 15,
+            "Age": 25
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Timothy Castagne",
+            "Position": "Defender",
+            "Number": 21,
+            "Age": 30
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Issa Diop",
+            "Position": "Defender",
+            "Number": 31,
+            "Age": 28
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Antonee Robinson",
+            "Position": "Defender",
+            "Number": 33,
+            "Age": 28
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Harrison Reed",
+            "Position": "Midfielder",
+            "Number": 6,
+            "Age": 30
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Tom Cairney",
+            "Position": "Midfielder",
+            "Number": 10,
+            "Age": 34
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Sander Berge",
+            "Position": "Midfielder",
+            "Number": 16,
+            "Age": 27
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Andreas Pereira",
+            "Position": "Midfielder",
+            "Number": 18,
+            "Age": 29
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Saša Lukić",
+            "Position": "Midfielder",
+            "Number": 20,
+            "Age": 29
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Josh King",
+            "Position": "Midfielder",
+            "Number": 24,
+            "Age": 33
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Ryan Sessegnon",
+            "Position": "Midfielder",
+            "Number": 30,
+            "Age": 25
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Emile Smith Rowe",
+            "Position": "Midfielder",
+            "Number": 32,
+            "Age": 25
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Raúl Jiménez",
+            "Position": "Forward",
+            "Number": 7,
+            "Age": 34
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Harry Wilson",
+            "Position": "Forward",
+            "Number": 8,
+            "Age": 28
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Rodrigo Muniz",
+            "Position": "Forward",
+            "Number": 9,
+            "Age": 24
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Adama Traoré",
+            "Position": "Forward",
+            "Number": 11,
+            "Age": 29
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Alex Iwobi",
+            "Position": "Forward",
+            "Number": 17,
+            "Age": 29
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Martial Godo",
+            "Position": "Forward",
+            "Number": 27,
+            "Age": 22
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "Stadium": "Selhurst Park",
+    "Founded": 1905,
+    "TeamID": "CRY",
+    "TeamName": "Crystal Palace",
+    "Manager": "Oliver Glasner",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Dean Henderson",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 28
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Daniel Muñoz",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 29
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Tyrick Mitchell",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 26
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Maxence Lacroix",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 25
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Marc Guéhi",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 25
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Ismaïla Sarr",
+            "Position": "RW",
+            "Number": 7,
+            "Age": 27
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Jefferson Lerma",
+            "Position": "DM",
+            "Number": 8,
+            "Age": 30
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Eddie Nketiah",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 26
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Yéremy Pino",
+            "Position": "RW",
+            "Number": 10,
+            "Age": 22
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Christantus Uche",
+            "Position": "CF",
+            "Number": 12,
+            "Age": 22
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Jean-Philippe Mateta",
+            "Position": "CF",
+            "Number": 14,
+            "Age": 28
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Nathaniel Clyne",
+            "Position": "RB",
+            "Number": 17,
+            "Age": 34
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Daichi Kamada",
+            "Position": "AM",
+            "Number": 18,
+            "Age": 29
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Will Hughes",
+            "Position": "CM",
+            "Number": 19,
+            "Age": 30
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Adam Wharton",
+            "Position": "DM",
+            "Number": 20,
+            "Age": 21
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Romain Esse",
+            "Position": "RW",
+            "Number": 21,
+            "Age": 20
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Jaydee Canvot",
+            "Position": "CB",
+            "Number": 23,
+            "Age": 19
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Borna Sosa",
+            "Position": "LB",
+            "Number": 24,
+            "Age": 27
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Chris Richards",
+            "Position": "CB",
+            "Number": 26,
+            "Age": 25
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Cheick Doucouré",
+            "Position": "DM",
+            "Number": 28,
+            "Age": 25
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Naouirou Ahamada",
+            "Position": "CM",
+            "Number": 29,
+            "Age": 23
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Remi Matthews",
+            "Position": "GK",
+            "Number": 31,
+            "Age": 31
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Chadi Riad",
+            "Position": "CB",
+            "Number": 34,
+            "Age": 22
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Caleb Kporha",
+            "Position": "RB",
+            "Number": 38,
+            "Age": 19
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Kaden Rodney",
+            "Position": "MF",
+            "Number": 42,
+            "Age": 21
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Walter Benítez",
+            "Position": "GK",
+            "Number": 44,
+            "Age": 32
+        },
+        {
+            "PlayerID": "27",
+            "PlayerName": "Justin Devenny",
+            "Position": "AM",
+            "Number": 55,
+            "Age": 22
+        },
+        {
+            "PlayerID": "28",
+            "PlayerName": "Rio Cardines",
+            "Position": "LB",
+            "Number": 59,
+            "Age": 19
+        }
+    ]
+}

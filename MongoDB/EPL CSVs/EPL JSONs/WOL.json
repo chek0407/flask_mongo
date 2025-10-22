@@ -1,0 +1,199 @@
+{
+    "Stadium": "Molineux Stadium",
+    "Founded": 1877,
+    "TeamID": "WOL",
+    "TeamName": "Wolverhampton Wanderers",
+    "Manager": "Vítor Pereira",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "José Sá",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 32
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Matt Doherty",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 33
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Hugo Bueno",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 23
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Santiago Bueno",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 26
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Marshall Munetsi",
+            "Position": "CM",
+            "Number": 5,
+            "Age": 29
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "David Møller Wolfe",
+            "Position": "LB",
+            "Number": 6,
+            "Age": 23
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "André",
+            "Position": "DM",
+            "Number": 7,
+            "Age": 24
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "João Gomes",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 24
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Jørgen Strand Larsen",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 25
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Jhon Arias",
+            "Position": "RW",
+            "Number": 10,
+            "Age": 28
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Hee-chan Hwang",
+            "Position": "CF",
+            "Number": 11,
+            "Age": 29
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Emmanuel Agbadou",
+            "Position": "CB",
+            "Number": 12,
+            "Age": 28
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Tolu Arokodare",
+            "Position": "CF",
+            "Number": 14,
+            "Age": 24
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Yerson Mosquera",
+            "Position": "CB",
+            "Number": 15,
+            "Age": 24
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Rodrigo Gomes",
+            "Position": "LM",
+            "Number": 21,
+            "Age": 22
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Tawanda Chirewa",
+            "Position": "AM",
+            "Number": 23,
+            "Age": 22
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Toti Gomes",
+            "Position": "CB",
+            "Number": 24,
+            "Age": 26
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Daniel Bentley",
+            "Position": "GK",
+            "Number": 25,
+            "Age": 32
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Ki-Jana Hoever",
+            "Position": "RB",
+            "Number": 26,
+            "Age": 23
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Jean-Ricner Bellegarde",
+            "Position": "CM",
+            "Number": 27,
+            "Age": 27
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Fer López",
+            "Position": "AM",
+            "Number": 28,
+            "Age": 21
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Enso González",
+            "Position": "LW",
+            "Number": 30,
+            "Age": 20
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Sam Johnstone",
+            "Position": "GK",
+            "Number": 31,
+            "Age": 32
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Mateus Mané",
+            "Position": "CF",
+            "Number": 36,
+            "Age": 18
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Ladislav Krejci",
+            "Position": "CB",
+            "Number": 37,
+            "Age": 26
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Jackson Tchatchoua",
+            "Position": "RB",
+            "Number": 38,
+            "Age": 24
+        },
+        {
+            "PlayerID": "27",
+            "PlayerName": "Nathan Fraser",
+            "Position": "CF",
+            "Number": 63,
+            "Age": 20
+        }
+    ]
+}

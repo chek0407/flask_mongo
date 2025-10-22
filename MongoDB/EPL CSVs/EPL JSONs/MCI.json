@@ -1,0 +1,192 @@
+{
+    "Stadium": "Etihad Stadium",
+    "Founded": 1880,
+    "TeamID": "MCI",
+    "TeamName": "Manchester City",
+    "Manager": "Pep Guardiola",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "James Trafford",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 23
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Rúben Dias",
+            "Position": "CB",
+            "Number": 3,
+            "Age": 28
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Tijjani Reijnders",
+            "Position": "CM",
+            "Number": 4,
+            "Age": 27
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "John Stones",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 31
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Nathan Aké",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 30
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Omar Marmoush",
+            "Position": "CF",
+            "Number": 7,
+            "Age": 26
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Mateo Kovačić",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 31
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Erling Haaland",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 25
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Rayan Cherki",
+            "Position": "AM",
+            "Number": 10,
+            "Age": 22
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Jérémy Doku",
+            "Position": "LW",
+            "Number": 11,
+            "Age": 23
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Marcus Bettinelli",
+            "Position": "GK",
+            "Number": 13,
+            "Age": 33
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Nico González",
+            "Position": "DM",
+            "Number": 14,
+            "Age": 23
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Rodri",
+            "Position": "DM",
+            "Number": 16,
+            "Age": 29
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Stefan Ortega",
+            "Position": "GK",
+            "Number": 18,
+            "Age": 32
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Bernardo Silva",
+            "Position": "AM",
+            "Number": 20,
+            "Age": 31
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Rayan Aït-Nouri",
+            "Position": "LB",
+            "Number": 21,
+            "Age": 24
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Joško Gvardiol",
+            "Position": "CB",
+            "Number": 24,
+            "Age": 23
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Gianluigi Donnarumma",
+            "Position": "GK",
+            "Number": 25,
+            "Age": 26
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Savinho",
+            "Position": "RW",
+            "Number": 26,
+            "Age": 21
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Matheus Nunes",
+            "Position": "CM",
+            "Number": 27,
+            "Age": 27
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Nico O'Reilly",
+            "Position": "LB",
+            "Number": 33,
+            "Age": 20
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Kalvin Phillips",
+            "Position": "DM",
+            "Number": 44,
+            "Age": 29
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Abdukodir Khusanov",
+            "Position": "CB",
+            "Number": 45,
+            "Age": 21
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Phil Foden",
+            "Position": "AM",
+            "Number": 47,
+            "Age": 25
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Oscar Bobb",
+            "Position": "RW",
+            "Number": 52,
+            "Age": 22
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Rico Lewis",
+            "Position": "RB",
+            "Number": 82,
+            "Age": 20
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "Stadium": "Elland Road",
+    "Founded": 1919,
+    "TeamID": "LEE",
+    "TeamName": "Leeds United",
+    "Manager": "Daniel Farke",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Lucas Perri",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 27
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Illan Meslier",
+            "Position": "GK",
+            "Number": 16,
+            "Age": 25
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Alex Cairns",
+            "Position": "GK",
+            "Number": 21,
+            "Age": 32
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Karl Darlow",
+            "Position": "GK",
+            "Number": 26,
+            "Age": 35
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Jayden Bogle",
+            "Position": "RB",
+            "Number": 2,
+            "Age": 25
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Gabriel Gudmundsson",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 26
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Ethan Ampadu",
+            "Position": "CB/DM",
+            "Number": 4,
+            "Age": 25
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Pascal Struijk",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 26
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Joe Rodon",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 27
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Jaka Bijol",
+            "Position": "CB",
+            "Number": 15,
+            "Age": 26
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Sebastiaan Bornauw",
+            "Position": "CB",
+            "Number": 23,
+            "Age": 26
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "James Justin",
+            "Position": "RB",
+            "Number": 24,
+            "Age": 27
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Sam Byram",
+            "Position": "LB",
+            "Number": 25,
+            "Age": 32
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Sean Longstaff",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 27
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Brenden Aaronson",
+            "Position": "AM",
+            "Number": 11,
+            "Age": 24
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Anton Stach",
+            "Position": "DM",
+            "Number": 18,
+            "Age": 26
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Ao Tanaka",
+            "Position": "CM",
+            "Number": 22,
+            "Age": 27
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Sam Chambers",
+            "Position": "AM",
+            "Number": 42,
+            "Age": 18
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Ilia Gruev",
+            "Position": "DM",
+            "Number": 44,
+            "Age": 25
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Daniel James",
+            "Position": "RW",
+            "Number": 7,
+            "Age": 27
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Dominic Calvert-Lewin",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 28
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Joël Piroe",
+            "Position": "CF",
+            "Number": 10,
+            "Age": 26
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Lukas Nmecha",
+            "Position": "CF",
+            "Number": 14,
+            "Age": 26
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Noah Okafor",
+            "Position": "Winger",
+            "Number": 19,
+            "Age": 25
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Jack Harrison",
+            "Position": "LW",
+            "Number": 20,
+            "Age": 28
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "Wilfried Gnonto",
+            "Position": "RW",
+            "Number": 29,
+            "Age": 21
+        }
+    ]
+}

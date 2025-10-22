@@ -1,0 +1,206 @@
+{
+    "Stadium": "Stamford Bridge",
+    "Founded": 1905,
+    "TeamID": "CHE",
+    "TeamName": "Chelsea",
+    "Manager": "Enzo Maresca",
+    "EntityType": "TEAM",
+    "Players": [
+        {
+            "PlayerID": "1",
+            "PlayerName": "Robert Sánchez",
+            "Position": "GK",
+            "Number": 1,
+            "Age": 27
+        },
+        {
+            "PlayerID": "2",
+            "PlayerName": "Filip Jørgensen",
+            "Position": "GK",
+            "Number": 12,
+            "Age": 23
+        },
+        {
+            "PlayerID": "3",
+            "PlayerName": "Gabriel Slonina",
+            "Position": "GK",
+            "Number": 44,
+            "Age": 21
+        },
+        {
+            "PlayerID": "4",
+            "PlayerName": "Tosin Adarabioyo",
+            "Position": "CB",
+            "Number": 4,
+            "Age": 28
+        },
+        {
+            "PlayerID": "5",
+            "PlayerName": "Benoît Badiashile",
+            "Position": "CB",
+            "Number": 5,
+            "Age": 24
+        },
+        {
+            "PlayerID": "6",
+            "PlayerName": "Levi Colwill",
+            "Position": "CB",
+            "Number": 6,
+            "Age": 22
+        },
+        {
+            "PlayerID": "7",
+            "PlayerName": "Trevoh Chalobah",
+            "Position": "CB",
+            "Number": 23,
+            "Age": 26
+        },
+        {
+            "PlayerID": "8",
+            "PlayerName": "Wesley Fofana",
+            "Position": "CB",
+            "Number": 29,
+            "Age": 24
+        },
+        {
+            "PlayerID": "9",
+            "PlayerName": "Marc Cucurella",
+            "Position": "LB",
+            "Number": 3,
+            "Age": 27
+        },
+        {
+            "PlayerID": "10",
+            "PlayerName": "Jorrel Hato",
+            "Position": "LB",
+            "Number": 21,
+            "Age": 19
+        },
+        {
+            "PlayerID": "11",
+            "PlayerName": "Reece James",
+            "Position": "RB",
+            "Number": 24,
+            "Age": 25
+        },
+        {
+            "PlayerID": "12",
+            "PlayerName": "Malo Gusto",
+            "Position": "RB",
+            "Number": 27,
+            "Age": 22
+        },
+        {
+            "PlayerID": "13",
+            "PlayerName": "Josh Acheampong",
+            "Position": "RB",
+            "Number": 34,
+            "Age": 19
+        },
+        {
+            "PlayerID": "14",
+            "PlayerName": "Enzo Fernández",
+            "Position": "CM",
+            "Number": 8,
+            "Age": 24
+        },
+        {
+            "PlayerID": "15",
+            "PlayerName": "Moisés Caicedo",
+            "Position": "CM",
+            "Number": 25,
+            "Age": 23
+        },
+        {
+            "PlayerID": "16",
+            "PlayerName": "Roméo Lavia",
+            "Position": "CM",
+            "Number": 45,
+            "Age": 21
+        },
+        {
+            "PlayerID": "17",
+            "PlayerName": "Andrey Santos",
+            "Position": "CM",
+            "Number": 17,
+            "Age": 21
+        },
+        {
+            "PlayerID": "18",
+            "PlayerName": "Dário Essugo",
+            "Position": "CM",
+            "Number": 14,
+            "Age": 20
+        },
+        {
+            "PlayerID": "19",
+            "PlayerName": "Cole Palmer",
+            "Position": "AM",
+            "Number": 10,
+            "Age": 23
+        },
+        {
+            "PlayerID": "20",
+            "PlayerName": "Facundo Buonanotte",
+            "Position": "AM",
+            "Number": 40,
+            "Age": 20
+        },
+        {
+            "PlayerID": "21",
+            "PlayerName": "Pedro Neto",
+            "Position": "RW",
+            "Number": 7,
+            "Age": 25
+        },
+        {
+            "PlayerID": "22",
+            "PlayerName": "Jamie Gittens",
+            "Position": "LW",
+            "Number": 11,
+            "Age": 21
+        },
+        {
+            "PlayerID": "23",
+            "PlayerName": "Alejandro Garnacho",
+            "Position": "LW",
+            "Number": 49,
+            "Age": 21
+        },
+        {
+            "PlayerID": "24",
+            "PlayerName": "Tyrique George",
+            "Position": "LW",
+            "Number": 32,
+            "Age": 19
+        },
+        {
+            "PlayerID": "25",
+            "PlayerName": "Estêvão",
+            "Position": "RW",
+            "Number": 41,
+            "Age": 18
+        },
+        {
+            "PlayerID": "26",
+            "PlayerName": "João Pedro",
+            "Position": "CF",
+            "Number": 20,
+            "Age": 24
+        },
+        {
+            "PlayerID": "27",
+            "PlayerName": "Liam Delap",
+            "Position": "CF",
+            "Number": 9,
+            "Age": 22
+        },
+        {
+            "PlayerID": "28",
+            "PlayerName": "Marc Guiu",
+            "Position": "CF",
+            "Number": 38,
+            "Age": 19
+        }
+    ]
+}
