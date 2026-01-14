@@ -604,7 +604,55 @@ class TeamPlayers(Resource):
         except Exception as e:
             logging.error(f"An unexpected error occurred: {e}", exc_info=True)
             return {"error": f"An unexpected error occurred: {str(e)}"}, 500
+        
+ # ======================== Team Manager Endpoint ========================       
+        
+@epl_ns.route("/teams/<string:team_id>/manager")
+class TeamManager(Resource):
+    @jwt_required()
+    def put(self, team_id):
+        """Update team manager only"""
+        current_user = get_jwt_identity()
+        logging.info(
+            f"User '{current_user}' attempting to update manager for team '{team_id}'"
+        )
 
+        data = request.get_json()
+
+        if not data or "Manager" not in data:
+            return {"error": "Manager field is required"}, 400
+
+        new_manager = data.get("Manager")
+
+        if not isinstance(new_manager, str) or not new_manager.strip():
+            return {"error": "Manager must be a non-empty string"}, 400
+
+        try:
+            result = epl_collection.update_one(
+                {"TeamID": team_id},
+                {"$set": {"Manager": new_manager.strip()}}
+            )
+
+            if result.matched_count == 0:
+                return {"error": f"Team {team_id} not found"}, 404
+
+            if result.modified_count == 0:
+                return {
+                    "message": "Manager unchanged (same value as before)"
+                }, 200
+
+            return {
+                "message": "Manager updated successfully",
+                "team_id": team_id,
+                "manager": new_manager.strip()
+            }, 200
+
+        except PyMongoError as e:
+            logging.error(f"MongoDB Error: {e}", exc_info=True)
+            return {"error": str(e)}, 500
+        except Exception as e:
+            logging.error(f"Unexpected error: {e}", exc_info=True)
+            return {"error": f"Unexpected error: {str(e)}"}, 500
 
 @epl_ns.route("/teams/<string:team_id>")
 class TeamResource(Resource):
