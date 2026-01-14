@@ -233,3 +233,137 @@ def search_users():
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}", exc_info=True)
         return jsonify({"error": f"An unexpected error occurred: {str(e)}"}), 500
+    
+    
+    
+    # =======================================Swagger Models and Namespaces (pointing to actual MongoDB logic) =========================================== #
+
+session_ns = Namespace("Session", description="Session management")
+api.add_namespace(session_ns)
+
+user_model = api.model(
+    "User",
+    {
+        "UserId": fields.String(
+            required=True, description="The user ID (will be MongoDB _id)"
+        ),
+        "Name": fields.String(required=True, description="The user name"),
+        "Email": fields.String(
+            required=False, description="The user email", default="unknown@example.com"
+        ),
+        "Status": fields.String(
+            required=False, description="The user status", default="active"
+        ),
+        "Preferences": fields.Raw(
+            required=False,
+            description="The user preferences",
+            default={"theme": "light", "notifications": True},
+        ),
+        "CreatedAt": fields.String(
+            required=False, description="The user creation timestamp"
+        ),
+    },
+)
+
+update_user_model = api.model(
+    "UpdateUser",
+    {
+        "Name": fields.String(required=False, description="The user name"),
+        "Email": fields.String(required=False, description="The user email"),
+        "Phone": fields.String(required=False, description="The user phone"),
+        "Address": fields.String(required=False, description="The user address"),
+        "Status": fields.String(required=False, description="The user status"),
+    },
+)
+
+search_user_model = api.model(
+    "Search_User",
+    {
+        "name": fields.String(required=False, description="The name to search for"),
+        "email": fields.String(required=False, description="The email to search for"),
+    },
+)
+
+
+# Define Swagger endpoints pointing to existing Flask routes
+# Get user by Id
+@users_ns.route("/<string:user_id>")
+@users_ns.param("user_id", "The user identifier")
+class SwaggerUserResource(Resource):
+    @users_ns.doc("get_user")
+    @users_ns.response(200, "Success", user_model)
+    @users_ns.response(404, "User not found")
+    def get(self, user_id):
+        """Fetch a user by ID"""
+        response, status_code = get_user(user_id)
+        return response, status_code
+
+    # Update user Endpoint
+    @users_ns.doc("update_user")
+    @users_ns.expect(update_user_model)
+    @users_ns.response(200, "User updated successfully", user_model)
+    @users_ns.response(400, "Bad request")
+    @users_ns.response(404, "User not found")
+    def put(self, user_id):
+        """Update a user by ID"""
+        response, status_code = update_user(user_id)
+        return response, status_code
+
+
+# List of all users endpoint
+@users_ns.route("/users_list")
+class SwaggerUserList(Resource):
+    @users_ns.doc("users_list")
+    @users_ns.response(200, "Success", [user_model])
+    @users_ns.response(404, "No users found")
+    def get(self):
+        """List all users"""
+        response, status_code = get_all_users()
+        return response, status_code
+
+
+# Add user endpoint
+@users_ns.route("/add_user")
+class SwaggerUserAdd(Resource):
+    @users_ns.doc("add_user")
+    @users_ns.expect(user_model)
+    @users_ns.response(201, "User created successfully", user_model)
+    @users_ns.response(400, "Missing required fields")
+    @users_ns.response(409, "User already exists")
+    def post(self):
+        """Create a new user"""
+        response, status_code = add_user()
+        return response, status_code
+
+
+# Delete User Endpoint
+@users_ns.route("/delete_user/<user_id>")
+class SwaggerDeleteUser(Resource):
+    @users_ns.doc("delete_user")
+    @users_ns.response(200, "User deleted successfully")
+    @users_ns.response(404, "User not found")
+    def delete(self, user_id):
+        """Delete a user by ID"""
+        response, status_code = delete_user(user_id)
+        return response, status_code
+
+
+# Search User Endpoint
+@users_ns.route("/search_users")
+class SwaggerUserSearch(Resource):
+    @users_ns.doc("search_users")
+    @users_ns.expect(search_user_model)
+    @users_ns.response(
+        200,
+        "Users found",
+        api.model(
+            "UserSearchResult",
+            {"message": fields.String, "users": fields.List(fields.Nested(user_model))},
+        ),
+    )
+    @users_ns.response(400, "Bad request")
+    @users_ns.response(404, "No users found")
+    def get(self):
+        """Search users by name or email"""
+        response, status_code = search_users()
+        return response, status_code
