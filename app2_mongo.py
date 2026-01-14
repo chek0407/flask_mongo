@@ -315,7 +315,8 @@ class AddTeam(Resource):
 
 
 @epl_ns.route("/teams/<string:team_id>")
-class TeamPlayers(Resource):
+class TeamResource(Resource):
+
     @jwt_required()
     def get(self, team_id):
         """Get all players from a specific team"""
@@ -329,14 +330,15 @@ class TeamPlayers(Resource):
                 return {"error": f"Team {team_id} not found"}, 404
 
             players = team.get("Players", [])
-
             return {"team_id": team_id, "players": fix_decimals(players)}, 200
+
         except PyMongoError as e:
             logging.error(f"MongoDB Error: {e}", exc_info=True)
             return {"error": str(e)}, 500
         except Exception as e:
-            logging.error(f"An unexpected error occurred: {e}", exc_info=True)
-            return {"error": f"An unexpected error occurred: {str(e)}"}, 500
+            logging.error(f"Unexpected error: {e}", exc_info=True)
+            return {"error": str(e)}, 500
+
 
     @epl_ns.expect(team_model)
     @epl_ns.doc("update_team")
@@ -345,10 +347,9 @@ class TeamPlayers(Resource):
         """Update team attributes (excluding players)"""
         current_user = get_jwt_identity()
         logging.info(f"User '{current_user}' attempting to update team ID '{team_id}'")
+
         data = epl_ns.payload
-        # Remove TeamID from update data if present, as it's part of the key
         data.pop("TeamID", None)
-        # Ensure we don't accidentally overwrite the Players array with an empty one if not intended
         data.pop("Players", None)
 
         if not data:
@@ -356,33 +357,50 @@ class TeamPlayers(Resource):
 
         try:
             update_result = epl_collection.update_one(
-                {"TeamID": team_id},  # Filter for the specific team
-                {"$set": data},  # Set the new values
+                {"TeamID": team_id},
+                {"$set": data},
             )
 
             if update_result.matched_count == 0:
                 return {"error": f"Team {team_id} not found"}, 404
-            if update_result.modified_count == 0:
-                return {
-                    "message": "No attributes updated or team data is the same"
-                }, 200
 
             updated_team = epl_collection.find_one({"TeamID": team_id})
-            if updated_team:
-                updated_team["id"] = str(updated_team.pop("_id"))
-                return {
-                    "message": "Team updated successfully",
-                    "updated": fix_decimals(updated_team),
-                }, 200
-            else:
-                return {"error": "Failed to retrieve updated team"}, 500
+            updated_team["id"] = str(updated_team.pop("_id"))
+
+            return {
+                "message": "Team updated successfully",
+                "updated": fix_decimals(updated_team),
+            }, 200
 
         except PyMongoError as e:
             logging.error(f"MongoDB Error: {e}", exc_info=True)
             return {"error": str(e)}, 500
         except Exception as e:
-            logging.error(f"An unexpected error occurred: {e}", exc_info=True)
-            return {"error": f"An unexpected error occurred: {str(e)}"}, 500
+            logging.error(f"Unexpected error: {e}", exc_info=True)
+            return {"error": str(e)}, 500
+
+
+    @epl_ns.doc("delete_team")
+    @jwt_required()
+    def delete(self, team_id):
+        """Delete a team and all its embedded players"""
+        current_user = get_jwt_identity()
+        logging.info(f"User '{current_user}' attempting to delete team '{team_id}'")
+
+        try:
+            result = epl_collection.delete_one({"TeamID": team_id})
+
+            if result.deleted_count == 0:
+                return {"error": f"Team {team_id} not found"}, 404
+
+            return {"message": f"Team {team_id} deleted"}, 200
+
+        except PyMongoError as e:
+            logging.error(f"MongoDB Error: {e}", exc_info=True)
+            return {"error": str(e)}, 500
+        except Exception as e:
+            logging.error(f"Unexpected error: {e}", exc_info=True)
+            return {"error": str(e)}, 500
         
  # ======================== Team Manager Endpoint ========================       
         
@@ -433,34 +451,6 @@ class TeamManager(Resource):
             logging.error(f"Unexpected error: {e}", exc_info=True)
             return {"error": f"Unexpected error: {str(e)}"}, 500
 
-@epl_ns.route("/teams/<string:team_id>")
-class TeamResource(Resource):
-    @epl_ns.doc("delete_team")
-    @jwt_required()
-    def delete(self, team_id):
-        """
-        Delete a team and all its embedded players from MongoDB.
-        """
-        current_user = get_jwt_identity()
-        logging.info(f"User '{current_user}' attempting to delete team ID '{team_id}'")
-        try:
-            # Delete the team document (which automatically deletes embedded players)
-            delete_result = epl_collection.delete_one({"TeamID": team_id})
-            logging.info(
-                f"Deleted {delete_result.deleted_count} team document for team {team_id}"
-            )
-
-            if delete_result.deleted_count == 0:
-                return {"message": f"Team {team_id} not found."}, 404
-
-            return {"message": f"Team {team_id} and all its players deleted"}, 200
-
-        except PyMongoError as e:
-            logging.error(f"MongoDB Error: {e}", exc_info=True)
-            return {"error": str(e)}, 500
-        except Exception as e:
-            logging.error(f"An unexpected error occurred: {e}", exc_info=True)
-            return {"error": f"An unexpected error occurred: {str(e)}"}, 500
 
 
 # ======================== Players Endpoints ========================
@@ -802,139 +792,6 @@ class EPLSearch(Resource):
                 f"An unexpected error occurred during search: {e}", exc_info=True
             )
             return {"error": f"An unexpected server error occurred: {str(e)}"}, 500
-
-
-# # =======================================Swagger Models and Namespaces (pointing to actual MongoDB logic) =========================================== #
-
-# session_ns = Namespace("Session", description="Session management")
-# api.add_namespace(session_ns)
-
-# user_model = api.model(
-#     "User",
-#     {
-#         "UserId": fields.String(
-#             required=True, description="The user ID (will be MongoDB _id)"
-#         ),
-#         "Name": fields.String(required=True, description="The user name"),
-#         "Email": fields.String(
-#             required=False, description="The user email", default="unknown@example.com"
-#         ),
-#         "Status": fields.String(
-#             required=False, description="The user status", default="active"
-#         ),
-#         "Preferences": fields.Raw(
-#             required=False,
-#             description="The user preferences",
-#             default={"theme": "light", "notifications": True},
-#         ),
-#         "CreatedAt": fields.String(
-#             required=False, description="The user creation timestamp"
-#         ),
-#     },
-# )
-
-# update_user_model = api.model(
-#     "UpdateUser",
-#     {
-#         "Name": fields.String(required=False, description="The user name"),
-#         "Email": fields.String(required=False, description="The user email"),
-#         "Phone": fields.String(required=False, description="The user phone"),
-#         "Address": fields.String(required=False, description="The user address"),
-#         "Status": fields.String(required=False, description="The user status"),
-#     },
-# )
-
-# search_user_model = api.model(
-#     "Search_User",
-#     {
-#         "name": fields.String(required=False, description="The name to search for"),
-#         "email": fields.String(required=False, description="The email to search for"),
-#     },
-# )
-
-
-# # Define Swagger endpoints pointing to existing Flask routes
-# # Get user by Id
-# @users_ns.route("/<string:user_id>")
-# @users_ns.param("user_id", "The user identifier")
-# class SwaggerUserResource(Resource):
-#     @users_ns.doc("get_user")
-#     @users_ns.response(200, "Success", user_model)
-#     @users_ns.response(404, "User not found")
-#     def get(self, user_id):
-#         """Fetch a user by ID"""
-#         response, status_code = get_user(user_id)
-#         return response, status_code
-
-#     # Update user Endpoint
-#     @users_ns.doc("update_user")
-#     @users_ns.expect(update_user_model)
-#     @users_ns.response(200, "User updated successfully", user_model)
-#     @users_ns.response(400, "Bad request")
-#     @users_ns.response(404, "User not found")
-#     def put(self, user_id):
-#         """Update a user by ID"""
-#         response, status_code = update_user(user_id)
-#         return response, status_code
-
-
-# # List of all users endpoint
-# @users_ns.route("/users_list")
-# class SwaggerUserList(Resource):
-#     @users_ns.doc("users_list")
-#     @users_ns.response(200, "Success", [user_model])
-#     @users_ns.response(404, "No users found")
-#     def get(self):
-#         """List all users"""
-#         response, status_code = get_all_users()
-#         return response, status_code
-
-
-# # Add user endpoint
-# @users_ns.route("/add_user")
-# class SwaggerUserAdd(Resource):
-#     @users_ns.doc("add_user")
-#     @users_ns.expect(user_model)
-#     @users_ns.response(201, "User created successfully", user_model)
-#     @users_ns.response(400, "Missing required fields")
-#     @users_ns.response(409, "User already exists")
-#     def post(self):
-#         """Create a new user"""
-#         response, status_code = add_user()
-#         return response, status_code
-
-
-# # Delete User Endpoint
-# @users_ns.route("/delete_user/<user_id>")
-# class SwaggerDeleteUser(Resource):
-#     @users_ns.doc("delete_user")
-#     @users_ns.response(200, "User deleted successfully")
-#     @users_ns.response(404, "User not found")
-#     def delete(self, user_id):
-#         """Delete a user by ID"""
-#         response, status_code = delete_user(user_id)
-#         return response, status_code
-
-
-# # Search User Endpoint
-# @users_ns.route("/search_users")
-# class SwaggerUserSearch(Resource):
-#     @users_ns.doc("search_users")
-#     @users_ns.expect(search_user_model)
-#     @users_ns.response(
-#         200,
-#         "Users found",
-#         api.model(
-#             "UserSearchResult",
-#             {"message": fields.String, "users": fields.List(fields.Nested(user_model))},
-#         ),
-#     )
-#     @users_ns.response(400, "Bad request")
-#     @users_ns.response(404, "No users found")
-#     def get(self):
-#         """Search users by name or email"""
-#         response, status_code = search_users()
-#         return response, status_code
 
 
 if __name__ == "__main__":
